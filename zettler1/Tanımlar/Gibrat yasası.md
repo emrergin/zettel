@@ -1,0 +1,1 @@
+Şirketlerin büyüme hızları, onların mevcut büyüklüklerinden bağımsızdır, diyen yasa. Şehirlerin büyüme hızları için de düşünülüyormuş, ancak "doğal şehir" kavramıyla büyük oranda çürütülmüş.

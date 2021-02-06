@@ -1,0 +1,5 @@
+- Irkçılık
+- İslamın şeytanlaştırılması
+- Küreselleşmenin ulus devletleri aşındırdığı düşüncesi
+- Göçmenlerin ulusal kimliğe zarar vereceği düşüncesi
+- Tüm siyasetçilerin yozlaşmış olduğu düşüncesi

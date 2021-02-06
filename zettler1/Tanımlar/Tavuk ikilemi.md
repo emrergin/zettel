@@ -1,0 +1,1 @@
+ Çok benzer iki adayın kendilerine benzemeyen bir adayı yenmek için işbirliği yapmaları ancak daha az işbirliğinin kazananın kendileri olma ihtimalini arttırdığı durum.

@@ -1,0 +1,46 @@
+- Bir sebepler zinciri aracılığıyla, eylemin ilk kökenini bulmak, ilâhiyata girmeden mümkün değildir.
+- Kurguda karakterler kendilerinden beklenmeyeni yapmazlar. Küçük çatışmalar onların ruhsal sıçramalarını meşrulaştırmak için kullanılır.
+	- Bütün değişimler aşamalar halinde olur. Bu aşamalar inandırıcı bir şekilde, azar azar işlenmelidir.
+- Birbiriyle zıt kişisel özellikler iyi bir çatışma doğurma aracı olabilir.
+- İyi bir çatışma eşit güçteki tarafların çekişmesiyle kurulur. Tarafların her ikisi de bütün güçlerini tüketmelidirler.
+- Çatışma karakterlerin kişiliklerinin uzantısıdır. Kişilikler de her yönüyle karakterlerin tanımlı olduğu çevrenin sonucudur.
+	- Gerçekçiliğini yitiren karakter, çatışmaya sebep olma yahut çatışma çözme yeteneğini de yitirecektir.
+- Diyalog çatışmaya sebep olur ve bu yolla kurguyu ilerletir.
+- Her çatışma bir öncekinden sebeplidir. İlk çatışmayı ise [[Önerme]]miz belirler.
+- İki tarafın sorun çözmek yahut gündemlerini ilerletmek konusundaki ısrarları çatışmayı netleştirir. Ve tarafların birini yahut bir kaçını değiştirir.
+- Statik çatışmalar karakterlerde bir değişime yol açmayan çatışmalardır.
+- Karakterlerin nereden nereye varacağı önceden bilinirse, gelişimleri sıçramasız olur.
+- Statik ya da sıçrayan çatışmalar, gelişimi iyi tasarlanmamış, geçiş süreçleri iyi belirlenmemiş çatışmalardır. Sebepleri:
+	- En başında, karakterlerin dağılımı yanlış ise.
+	- Çatışma olması gerekenden sonra gerçekleşirse.
+- İyi yazılmış çatışma, karakterin kendisini açıklaması için fırsat verir ve bize de ondaki değişimi gözlemleme için bir şans verir.
+- Karar verme gücünden yoksun zayıf karakter, statik çatışmaya yol açar.
+- Herhangi bir çatışmanın bir sürü çözüm yolu vardır. Yazara düşen, bu çatışmayı [[Önerme]]mizi kanıtlamamıza yol açacak yollarla çözmek ve bunun gerekçelelerini sağlamaktır.
+- Gelişmeli çatışma, açık bir [[Önerme]]nin bir araya getirdiği, kişilikleri ve birbiri arasındaki ilişkileri net olarak çizilmiş karakterlerin etkileşmesi aracılığıyla türetilir.
+- Çatışmalar, gerçek çatışmalara nazaran daha özlü olması gerektiğinden, karakterler diyaloğa uzlaşıya yanaşmayacak çatışmanın şiddetini artıracak şekilde yaklaşırlar.
+- Bütün küçük dönüşümlerin kendisine hizmet ettiği daha büyük bir dönüşüm olmalıdır. ^0c6fe3
+- Saldırı ve karşı saldırı çatışmayı harlandırmak için elverişli olsa da, kesintisiz olarak kullanılması kısa bir metin üretilmesine ve okuyucuyu yormaya yol açabilir.
+- Eleştiri nasıl alınır? Teknik eleştiri herkesten alınmaz, ancak okurun yorulduğu veya sıkıldığı yerler çatışma yoksunluğuna işaret ettiği için önemlidir.
+- Okurun kültür seviyesinin artması, bir çatışmanın yokluğunu sezmesini hızlandırır. Dolayısıyla sıkılma her türden okur için bilgi içeren bir geri dönüştür.
+- Her türden yazı içerisinde bir çatışma içerir. Fikir eserlerinde bu farklı görüşlerin bir araya getirilmesiyle olur.
+- Çatışma vaadi çatışmadan önce gelir. Ancak yarattığı gerilim akışı sağlar.
+- En kolay haliyle çatışma vaadi, uzlaşmaz bir karakterin tanıtılmasıyla olur.
+	- Uzlaşması varlıklarıyla çelişen taraflar da bu fikrin uç  noktaya götürülmesidir.
+- Çatışmanın kurgudaki işlevlerinden birisi de, bütün karakterlerin kendilerini açığa vurması, bunun yanında okurun da, empati ve yerine koyma aracılığyla *ben olsaydım napardım* kendisine geri dönebilmesini sağlamasıdır.
+- **Başlangıç Noktası**
+	- Ne istediğini bilmeyen, gönülsüz isteyen, istediğini zorunluluk olmadan isteyen karakterler yeterince kuvvetli bir çatışma oluşturamazlar.
+	- Bir piyesin başlama noktası düşünülürken şunlar aranmalıdır:
+		- Çatışmanın krize yöneldiği an
+		- Karakterlerin en az birinin hayatındaki bir dönüm noktası
+		- Çatışmayı şiddetlendirecek bir karar
+		- Hayati bir unsurun tehlikeye düşmesi
+	- Eser, söylenen ilk cümleyle başlamalıdır. Tasvirler yahut uzun izahlı girizgâhlar yoluyla atmosfer oluşturmak yanlıştır.
+- **Değişim**
+	- Eser aşktan nefrete akacaksa, aradaki bütün ara basamakların bulunması ve işlenmesi gereklidir.
+	- Gerçek dünyada bir parlama halinde gerçekleşen fikir akışları bile zihinsel bir sürece dahildir. Yazara düşen bu zihinsel süreci tespit edip yansıtmaktır.
+	- Gerçek akış sürekli iken, herhangi bir metin kesiklidir. Yazarın eserinin değerini artıran, yansıttığı karelerin arasındaki akışı hissettirebilmekteki başarısıdır.
+- **Kriz (Giriş), Düğüm (Gelişme), Çözüm (Sonuç)**
+	- Kriz, düğüm ve çözüm her perdede bulunur. [[Bölüm 3 - Çatışma#^0c6fe3]]
+	- Mutlak boyun eğme piyesin bitişi hariç mümkün değildir. Yaşamın sürdüğü yerde bulunmaz.
+	- *Tek bir sahne, bütün eserin minyatür bir versiyonu gibi, önermenin belirli bir yansımasını ve kendi krizini, düğümünü ve çözümünü içerir.*
+	- Genel çatışmaya hizmet eden her sahnedeki miniçatışmaların şiddeti gittikçe yükselecektir.

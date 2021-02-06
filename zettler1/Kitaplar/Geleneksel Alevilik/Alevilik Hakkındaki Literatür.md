@@ -1,0 +1,59 @@
+- **Osmanlı Mirası**
+	- Kızılbaşların *fişlenmesi* ve "kırk bin" adedinin Yavuz tarafından öldürülmesi.
+	- Ehl-i Beyt sevgisi (?) ve şeri kurallar karşısında kayıtsızlık.
+		- Yazar Aleviliğin Kızılbaşlar zamanında başladığını ve Şianın bir kolu olduğunu söylüyor ama İsmail'in imamlık geleneğine nasıl bağlandığını söylemiyor.
+	- Kızılbaşlığın dini dışlanmasının kızılbaşlara savaş açmak için gerekli olduğunu söylüyor, ama Beylikler arası savaşlar, Memlüklerle olan savaş, Akkoyunlularla olan savaş bunun aksini söylüyor. Yani Müslümanın Müslümanla savaşamayacağına dair teorik varsayımın pratikte az karşılığı var. Öte yandan halkın sivil kesiminin dışlanmasının yeni bir durum olduğu gerçek. Bunu da Yavuz Sultan Selim'e kadar bir sıkıntı görülmemesiyle birlikte okumak gerek, bence. ==?==
+	- Alevi konusundaki ilk fetvaları veren kişiler: Müftü Hamza ve Kemal Paşazade. Sonra da Ebussuud genel çerçeveyi çiziyor.
+		- Dinin teorideki amacı olan insanların Allah'ın rızasına uygun yaşayıp sonunda Cennet'e gitmelerine hizmet etmek... Hangi dinin amacı bu? Bunun atıfı nedir?  ==?==
+	- Osmanlıda din ve devletin içiçe geçmesi ve sultana itaatin dindarlıkla bir arada bulunması fikri. Bu Osmanlıya özgü değil, Sünni geleneğin dört bir yanında var bu durum.
+- **Modern Dönem**
+	- Gayrımüslimlerle teba olma hareketinin başarısızlığından sonra, Osmanlılar heterodoks olsalar da en azından müslüman olan Alevileri yeniden kazanmanın peşine düştüler. Bunun için köylere cami yapma, Alevi ailelerin çocuklarının medreselerde eğitimi ve devlet görevlerine getirilmesi politikaları uygulandı.
+	- Bu süreçte kamudan tamamen soyutlanmış ve hiçbir hakkı olmayan tek grup onlardı. Misyonerler de bunun bilincinde olduğundan kendilerini kazanmak için epey uğraştılar.
+	- Bu yeniden kazanma sürecinin bir bileşeni de Aleviliği Kızılbaşlıktan çıkarıp, Bektaşiliğe yamama çabasıydı.
+	- Sonrasında gelen Türkçülük akımı ise Alevilerin topluma dahil edilmesini kolaylaştırdı, ancak bu da Zaza ve Kürt Alevileri yok sayma potansiyelini bünyesinde barındırıyor.
+- **Tarihsel yaklaşım**
+	- Aleviler ve yaşayışları merkezi hükümetin eliyle çok şekillenmemiş, şeriatın derinliklerine çok nüfuz etmemiş köylü Sünnilet Türk halk kültürünün esas taşıyıcıları olarak görüldü. Türkçülüğün içindeki İslam'ın sadece bir çeşni olmasından mütevellit, Aleviliğin içindeki İslamla çelişen yerler çok sorun edilmedi.
+	- Buna rağmen, Sünnilik kentli, yüksek kültür muhitlerinde üretilmiş kitabî ve aslına sadık İslam, Alevilik ise kırsal ve düşük kültür düzeylerinde, yerel Türk inançlarının üzerine geçirilmiş bir İslam cilası olarak görülüyordu.
+	- Alevilik ilk dönemde Yeseviliğe ve onun kolu olan Bektaşiliğe bağlanıyor. Kızılbaşlık bir Türkmen kolu olmasına rağmen, devletin resmi politikası gereği bu damar yok sayılıyor.
+	- Alevilik sonradan heterodoksi, senketizm ve Şamanizm kaynaklı olarak anlaşılıyor. Ancak bu okumalarda Aleviliğin birinci el kaynakları kullanılmamış.
+	- Sonraki okumalarda Alevilik **Dede Garkın** üzerinden Vefailiğe bağlanıyor. Şecerelere bakıldığında büyük mutasavvıf **Tâcu'l-ârifîn Ebu'l-Vefâ**'ya ulaşılabiliyor. Bu mutasavvıf bir Kürt.
+	- Abdülbaki Gölpınarlı Fütüvvet Geleneği ile Alevilik ve Bektaşilik arasındaki yakın ilişkiye işaret ediyor.
+	- Sünnilik kutsal olanla irtibatın kesilmediğini iddia ettiğinden verili metinleri ve bu metinleri bir anlama üslubunu vurgular. Şia ise kutsal olanla irtibatın sürdüğünü düşündüğünden sistemlere değil, kişilere intisab odaklıdır. Şeri hükümler ikincildir. **Sünni tasavvuf ekolleri bu işin neresinde duruyor?**
+	- Yazara göre Anadolu Aleviliği: Ehli-Beyt sevgisi, Ali hayranlığı ve Kerbela kültürü demekmiş ama bunlardan özellikle birincisi neyi kapsıyor tam anlayamıyorum.
+- **Antropolojik Yaklaşım**
+	- Yapılan araştırmaların pek azı işin kaynağına gitmiş, kent hayatında geleneksel Alevilikle bağlarını koparan Aleviler hakkında yapılan çalışmalar başı çekmiştir.
+	- Heterodoksi ve ortodoksi vurgusunun terkedilip yerine bir şey konmadığında, araştırmalar temelsiz kalmıştır.
+- **Milliyetçi Muhafazakâr Yaklaşım**
+	- Gökalp ve İttihatçılar halk tabanında mevcut Türklüğün tespitinin ve rafineleştirilip aşağıdan yukarıya bir kimlik oluşturmasına hizmet etmeyi düşünürlerken, Kemalistler tepeden inme, Jakoben, dini ve millilikten arınmış ve yerine ulus konmuş bir Türkçülükle ilgilendiler.
+	- Bu içiboşaltılmış batıya öykünmecilik, Alevileri olduğu kadar Sünnileri de zor duruma soktu.
+	- İlk nesil kentli Aleviler, Kemalist oldu. *Buradaki dinamikler açıklanmamış.*==?==
+	- Geleneksel toplumsal bağları en hızlı çöken kesim Aleviler olduğundan, kentleşmenin ve fakirliğin solculuğa en çok itebildiği kesim de Aleviler oldu. İkinci kentli Alevi nesli sol ideolojilere yöneldi.
+	- Sol tehlikesine karşı ulus yeniden tanımlanırken bu kez Sünnilik vurgusu yapıldı. Alevileri solculara kaptırmamak için de, Alevilik ve Sünnilik arasındaki benzerlikleri vurgulayan çalışmalara yönelindi.
+	- Bu konuda en kilit isimler: *Mehmet Eröz, Ethem Ruhi Fığlalı.*
+	- Antropolojik yaklaşım ve Milliyetçi Muhafazakâr Yaklaşım birbirinin zıttı gibi.
+		- İlki Sünnilik ve Alevilik arasındaki farklara yoğunlaşırken, ikinci benzerliklere yoğunlaşıyor. 
+		- İlki mevcut Alevilerin yaşayışını gözlemi ağırlıklı olarak kullanırken, ikincisi ana metinlere yoğunlaşıyor.
+	- İslamın ve imanın şartlarına dair vurgular Alevi yazılı kaynaklarında bulunur, ancak iç dinamikler farklıdır.
+	- Ama sonuç olarak, yapılan Aleviliği kendisi için anlamak olmadığından, akademik derinliği az bir yaklaşım.
+- **Alevi yaklaşım**
+	- Komünizm çöktüğünde Aleviler yeniden kendilerini tanımlamaya döndüler. Ama artık şehirliydiler ve sözlü kültür kendilerine hitap etmiyordu. Dedeler ise yazılı dünyanın hegemonyasına çok hızlı adapte olamadılar.
+	- Alevilerin arasından gelmeyen yahut artık alevi olmayan araştırmacılar kendilerini alevilik hakkında konuşmaya başladılar ve kentli Aleviler de onları daha çok dinledi.
+	- Aleviliğin tam olarak ne olduğu konusunda bu araştırmacılar arasında da bir sürü fark görülüyor. 
+		- Kimisi İslam'ın kurallardan ziyade evrensel mesajlarıyla ilgilenen kısmı olduğunu söylüyor.
+		- Kimisi Arapların Sünniliği, İranın Şiiliği gibi bizim İslam yorumumuz olduğunu söylüyor. Bu "bizim" kimisi için Türkler, kimisi için de Kürtler. Kürtlerin altkollarında bile garip sahiplenmeler var.
+		- Kimisi kadim Türk kültürünün bir sonucu, Şamanizmin bir uzantısı olarak görüyor.
+		- Kimisi Aleviliğin Hz. Ali ile bir alakasının olmadığını savunuyor.
+	- Bütün bu konu başlıklarının ortak yanı, Sol tandanslı Alevi "aydınlarının" Aleviliği İslam'ın parçası olarak görmeyi kendilerine zul görmeleri.
+	- Alevilik kültürel olarak Orta Asyalı, inanç olarak ise On İki İmam Şiası içindedir, görüşü de var.
+	- Bektaşilik, Babailik ve Safevilik zincirinin son halkasıdır, diyen de var.
+- **Sözlü ve yazılı kaynaklar**
+	- Bir taraftan Aleviliği tarihinden kopuk ve bugünüyle anlamaya çalışanlar ve diğer taraftan Aleviliğin aslında İslamın bir türevi olmaktan başka bir şey olmadığını söyleyenlerin her ikisi de, özü itibariyle Aleviliğin kendisinin korunmasına vesile olmuyorlar.
+	- Aleviliğin sözlü kaynakları köylerin kaybolmasının riski altında olduğundan bu konudaki çalışmalar daha acil. Bu konuda kitabın yaptığı çalışma TÜBİTAK'ın bu konuda desteklediği ilk çalışma değil.
+	- Yazılı kaynakların derlenmesi var, ancak amaç odaklı, yorumlu ve basitleştirerek yayınlanması, metot sorunlarıyla birlikte gelir. Hiçbir derlemede derlemenin düzenlenmemiş ham materyaline ulaşmak mümkün değildir.
+	- Yazılı kaynaklar konusunda iki önemli kurum:
+		- Gazi Üniversitesi Türk Kültürü ve Hacı Bektaş Veli Araştırma Merkezi
+			- Sitesine ulaşılamıyor.  http://www.hbektasveli.gazi.edu.tr/
+		- Hitit Üniversitesi Hacı Bektaş Veli Araştırma ve Uygulama Merkezi
+			- Siteye ulaşılamıyor. http://huham.com/
+	- Diğer: Diyanet Vakfının bastığı Alevi klasikleri ve Karakaya-Stumpt'ın münferit derlemesi.
+	- Bütün bu yazılı kaynaklar kişilerle yapılan şahsi görüşmeler üzerine bina olmuştur, sistematik bir taramadan söz edilemez.

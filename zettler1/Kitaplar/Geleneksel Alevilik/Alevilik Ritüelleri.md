@@ -1,0 +1,103 @@
+- Geleneksel toplumlarda, "rit" yaşanan hayatın ifadesiyken, "mit" de onun açıklamasıdır.
+- Antropolojiye göre *yerliler* için kavranabilir bilgi yaşanabilen ve icra edilen şeydir.
+- Eski Çin: "Ayinler yığınları bir arada tutan bağlardır; eğer bu bağlar ortadan kaldırılırsa yığınlar kargaşa içine düşer."
+### Cem
+- Kırklar Meclisi'nin taklidi ve yeniden icrası demektir.
+- En önemlisi yılda bir yapılan **görgü cemi**dir.
+- Bir mahkeme işlevi de görür.
+	- Verilen temel ceza, toplumsal dışlama manasına gelen düşkünlüktür.
+	- Bu cezanın kaldırılması için mücrim fiziksel ve maddi cezaları tercih edebilir.
+- Ritüelin içindeki rol ve otorite dağılımı, gündelik hayattaki dağılımı temsil eder.
+- Toplumsal dayanışmayı kuvvetlendirir.
+- Üyelerden (**talip**) alınan ödemeler aracılığıyla ekonomik hayatı da belli bir ölçüde düzenler. Bu ödemelere, *hakkullah* denir.
+- Ritüelin esasları ortak olsa da, ayrıntılarda değişiklikler vardır.
+	- Örneğin cemin "on iki hizmet" (alt ritüel) oluştuğu düşünülse de, bunların ne olduğu değişebilir.
+- Ancak, her cem için ortak olan alt ritüeller vardır:
+	- *Çerağ* uyarma
+	- Kurban (Kurban gerektiren cemler için)
+	- *Miraçlama*
+	- Semah
+	- Kerbela'yı anma (*sakka* suyu)
+	- Lokma
+- Aleviliğin lingua francası Türkçe'dir. Yani Zaza ve Kürt Aleviler için de ibadet dili Türkçedir.
+	- *gülbanklar*, *duvazimamlar*
+#### Cem Çeşitleri
+- **Görgü Cemi**
+	- Musahiplik cemi ile beraber Aleviliğin en önemli kurumudur.
+		- Geleneksel aleviliğin çözülme sürecinin ilk aşaması görgü ceminin terk edilmesi olabilir.
+	- Her yıl kışa doğru olur.
+	- Özeti: Toplum huzurunda bütün kötülüklerini söyleyip, rıza alıp, kurban kesiyorsun.
+	- Bu kurban, tavuk da olabilir.
+	- Görgü ceminde anahtar kavram rızalıktır. Helalliğe benziyor.
+	- Birbirine hakkı geçenlerin arasındaki rıza dede tarafından sağlanır.
+	- "Komşu razı ise Allah da razıdır."
+	- Biat ayeti [[Fetih Suresi 10]]
+	- 48 Cuma vurgusu ve Ramazan vurgusu bu ritüelde hatırlatılıyor.
+	- *Pir*, *rehber*, *talip*, *tercüman* ==?==kavramları hikâyelerle destekleniyor.
+	- Allah'ın sünnetİ: Kulun ayıbı yüze vurmama.
+	- Peygamberin sünneti: Eline, beline, diline sahip ol.
+	- Evliya sünneti: Göbekten üst yana küfür etme. Yalan ve iftiradan kaçın.
+	- Şah Hatayi bazı ritüellerde geçiyor.
+		- Yeni isimler: *İmam Muhammed Taki*, *Ali Naki*
+	- Yargının içselleştirilmesi sebebiyle mahkemeye intikal eden olaylar çok yok. İddiaya göre resmi mahkemenin tarikate yönlendirdiği bile vaki imiş.
+	- Eskiden bu ceme katılmama düşkünlük sebebi olarak görülürmüş.
+	- Pir görgüsü ve köy görgüsü olarak ikiye ayrılıyor. Pir görgüsü ait oldukları ocakla alakalı, köy görgüsü ise içinde yaşadıkları köyün dedesinin yaptığı. Köyde olana katılmak için kendi dedelerinden sözlü iznini alıyorlar.
+- **Birlik cemi/ *Abdal Musa* Cemi**
+	- Birlik cemi yapılıyor, sonra Abdal Musa cemi, sonra da görgü cemi. Aynı sürecin parçaları.
+	- İkisinin kurbanı ayrı ayrı.
+	- Birlik cemi mahsulden sonra yapılır.
+	- Kurban kesilir ve tohumlar dualanır.
+	- *Rehber*, *köy babası* tarafından düzenlenir, dedenin talibi olmasa da olur.
+- **Hızır, Hıdırellez cemi**
+	- Şubat ayında tutulur.
+	- Üç veya yedi gündür.
+	- Bir lokma yenir, lokmaya: Puhud, Hızır yemi, Hızır lokması gibi isimler verilir.
+	- *Sakka suyu* dağıtılır. ==?==
+- **Cumalıklar**: 
+	- Her Perşembe akşamı köy babası, rehberi tarafından yapılan sohbetler.
+	- Gündüzleri, yani Perşembeleri oruçlu geçiriyorlar. Ama Ramazandaki Perşembeleri atlıyorlar, toplam 48 Perşembe.
+#### Düşkünlük
+- Görgü ceminde, sorgudan geçemeyen kişiye düşkün denir.
+- Suça göre üç, yedi veya daha fazla düşkün kalınabilir.
+- Düşkün kendisi, ailesi ve musahibiyle birlikte toplumdan dışlanır. Aynı kazanda yemek yedikleri herkes.
+- Bunlarla konuşulmaz, alışveriş yapılmaz, yemeği yenilmez, yemek verilmez, ortak işlere dahil edilmezler.
+- Düşkünlüğe sebep olabilecek suçlar: Sınır bozma, haksız yere boşanma, nikâhlı kadın alma, kadın kaçırma, zina, yaralama, cinayet.
+- İsterlerse bu cezayı, dedenin ve diğer köylülerin rızasıyla fiziksel ve maddi cezaya çevirirler.
+	- Fiziksel kısım: Kızgın sacda çıplak ayakla durma, alnına sivri bir cisim dayalı halde boynuna ağırlık asarak bekleme, kışın karda yalın ayak yürüme.
+- En büyük Alevi yemini. "*Hazreti Ali'nin kılıcı kellene, boynuna uğrasın mı?*"
+	- Cezanın diğer adı: *sitem vermek*.
+- Bazı yerlerde düşkünlüğü kaldırabilecek tek bir ocak olduğu, bunların da Hıdır Abdal Ocağı olduğuna inanılıyor, bazıları da buna inanmıyor. Yargıyı ancak kendisine tabi olunanın yapabileceği düşünenler de var.
+- ==KAHVEYİ İCAD EDEN KİŞİ==: Şeyh Şazi Sultan
+- Adam öldürme, zina ve livata suçlarını daha üst ocaklara ileten ocaklar da var.
+- Kente göçten sonra uygulaması imkânsızdır.
+
+#### Cem Mekânları
+- Cemin belirli bir mekânı yoktur. Büyük odalar, temizlenmiş ahırlar vesaire kullanılabilir.
+	- Bunun istisnası vakıflarla desteklenen tekkelerdir.
+- Cem için ayrı bir mekân inşası 1940'larda görülür. Bu özellikle 90larda yaygınlaşır.
+- Mekân önemli olmasa da, ritüelin sembolik objeleri önemlidir.
+	- Meselâ, çerağ çok önemlidir.
+
+#### Kutsal Mekânlar
+- Cem mekânları kutsal görülmese de, Alevilikte kutsal mekân mefhumu mevcuttur.
+- Kutsal mekân orada kutsalın tecelli etmiş ve ediyor olması demektir.
+- Kutsal alanla dünyevi alan arasında bir temas noktaları gibidirler.
+- Kutsal mekânları ziyaret ve kurban birlikte gelir.
+- Aleviler, gündelik ihtiyaçlar için metafizik güçlerden isteyecekleri yardımı kutsal alanlar vesilesiyle isterler.
+- Bazı pratikler:
+	- Kutsanmış bir ağaca çaput bağlamak
+	- Dikey duran düz ve kaygan bir kaya parçası üzerine küçük taş parçacıkları yapıştırmak
+	- Dar bir delikten geçmek
+	- Taş ve ağaç parçasını öpmek
+#### Ziyaretler ve Kurban
+- Ziyaret sınırları içinde kalan bölge üzerindeki her şey de kutsal kabul edildiğinden, "kutsal taş" filan bulması oldukça kolaydır.
+- Bu sahadaki ağaçların sahanın içinde, kurban filan için kullanılması sakıncalı görülmez. Ancak ziyaret bölgesi dışına çıkarılması tabu olarak görülür. Bu konuda bir sürü ibretlik hikâyeleri var.
+- Bu ziyaretler yılda bir yapılır.
+- Neredeyse her köyün kutsal bir sahası olsa da, ocak kurucularının türbelerine yapılacak ziyaretler uzun seyahatler gerektirebilir.
+- Çaresiz kaldıkları konularda dilek ve arzuları için adak adıyorlar. 
+	- Çocuk için adağın adandığı hocanın ismini çocuklara koyabiliyorlar.
+- Yağmur duası onlarda var.
+- Dualarında ilginç bulduğum yerler:
+	- Öz birliğine Allah, Şah devletine Allah, pir kuvvetine Allah...
+	- Üçlerin, beşlerin, kırkların yüzü gözü hürmetine...
+- Ziyaretler, adaklar ve cem ritüellerinin hepsi de kurban ile alakalıdır.

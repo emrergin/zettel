@@ -1,0 +1,27 @@
+Sevgili Öğrenciler,
+
+Pek çoğunuzla en azından bir sonraki döneme kadar görüşmeyeceğiz. Bu grubu da bütünlemelerden sonra kapatacağım. Öncesinde size bir hocanız olarak bazı tavsiyelerde bulunmak üzere kullanmak istiyorum. Burada yazacaklarım hepinizle alakalı değil, bu konularda tavsiyeye ihtiyacı olmayan bilinçli gençler de var aranızda.
+
+1. **Mail yazma adabı**na hâlâ alışamayanlarınız var. Yazdığınız maillerin spam filtreleri yahut bizim meşguliyetlerimiz tarafından yok sayılma ihtimalini en aza indirmek için, mailinizin içeriğini konu başlığında dört veya daha az kelime ile özetlemeli, sonra maile kendinizi tanıtarak başlamalı, ardından maruzatınızı bildirmelisiniz. Bunu yaparken Türkçenizi önemseyin, nasıl ki randevu aldığınız bir hocanın yüzüne hapşırmanız affedilemezse, mail adabına uymayan derme çatma satırlarınız sizi gözümüzde olduğunuzdan kıymetsiz gösterecektir.
+2. **Üniversite hocalarının genel tavrı**nın lise hocalarından farklı olduğuna hala alışamayanlarınız var. Kişi başına düşen öğrenci sayımız ve öğretme işinin tek sorumluluğumuz olmamasından ötürü maalesef size ayırabileceğimiz zaman daha az. Bu konuda arkadaşlarınıza sorup öğrenebileceğiniz şeyleri hocanızdan beklemek belki doğaldır, ama gerçekçi değil. Hocalarınızdan üç yüz küsür kişinin uymalarını beklediği kuralları ve son tarihleri sizin için eğip bükmesini, size ekstra süre, yeni bir ödev vesaire tanımlamasını beklemek de akla sığmıyor. Biz zamanımızı sizden çok daha verimli kullanmak durumundayız ve doğal olarak, kendi sorumluluklarınızı yerine getirmediğiniz için size ekstra zaman ayıramayız. 
+
+	Kendi sorumluluklarınızı mükemmelen yerine getirmeli ve kendiniz çözebileceğiniz işleri erteleyip hocanın insafına kalmamalısınız. Bu gerçekle bir an önce yüzleşip tavırlarınızı buna göre belirlemeniz uzun dönemde işlerinizi çok kolaylaştıracak.
+3. **Referans mektubu** istemek çok ciddi bir iştir. Kimse tanımadığı bir kişiye referans olmak istemez. Kaldı ki bu işin adabı önce hocadan izin istemektir, hoca da kendince sebeplerle bunu kabul edebilir, yahut reddedebilir. Emrivakiyle referans yazmak durumunda bıraktığınız hocalarınız yüksek ihtimalle hakkınızda olumsuz referans yazacaklardır. Yol yordam bilmediğinizi olası işverenlerinize duyurmak da bizim görevimiz, haliyle.
+	
+	Ben kendi adıma yüzünü bilmediğim yolda görsem tanımayacağım öğrencilere referans vermeyi düşünmüyorum. Bu konuda başka hocalarınızın başka kıstasları olacaktır.
+4. **Teknoloji okur yazarlığı** pandeminin etkisiyle sizin başarınızda epey belirleyici olmaya başladı. Aranızda telefonunu ve bilgisayarını yetkin kullanabilenler derslerinde diğerlerine göre avantajlı bir hale geldi. Bu kiminize adil gelmeyebilir. Başka bir konuda olsa ben de böyle düşünürdüm, ama hepinizin bildiği gibi içinde bulunduğumuz çağ, pandemi olmasaydı da sizden teknoloji okur yazarı olmanızı bekleyecekti. Bu yüzden bu krizi bir fırsata çevirmenizi ve bunun gibi konularda kendinizi geliştirmeye açık olmanızı tavsiye ediyorum.
+5. **Derslerin zorluğu** kiminizi afallatabiliyor. Toplumun pek çok farklı kesiminden geldiniz ve üniversiteye girerkenki bilgi seviyeniz olması gerektiği kadar eşit değil. Beklentileriniz de farklı farklı. Ama biz hocalar olarak sizin buraya gelirkenki değil, mezun olurkenki standartlarınızı düşünmek ve bütün içerikleri buna göre tasarlamak durumundayız. Size düşen bizim size koyduğumuz standartlara doğru ilerlemek. Mesela bir içeriği öğrenmek bizce hayatî ise, sizce de hayatî olmalı. Yapacağınız türlü manevralarla bizim önemli gördüğümüz içerikleri öğrenmeden mezun olmaya çalışmanız, *vatanseverlikle bağdaşmıyor.* Artık bu ülkenin okuduğu bölüm hakkında hiçbir şey bilmeyen başka üniversite mezunlarına ihtiyacı yok, hiç de olmadı. Eğer burada kendinize bir şey katacağınıza inanıyorsanız, kıvırmadan, gereğini yapmalısınız.
+	> Yetişkinlik, gereğine aklen inandığın işleri yapmak için başkasının zorlamasına ihtiyaç duymamaktır.
+
+	Eğer üniversitede belirlenen program sizce saçma ve anlamsızsa, okumayı bırakıp daha anlamlı işlerle meşgul olmanızı ise ancak takdir ederim.
+6. **Yardım istemek ve yardımlaşmak** bahsini bence bayağı tersten anlamışsınız. Öncelikle arkadaşlarınızla kopya çekmek yardımlaşmak değildir, ikinizden birinin diğerinin öğrenmesini engellemesidir. Dersleri öğrenmemiş birisinin dersleri geçmesine yardım etmeniz, kendi diplomanızın değerini düşürmenizdir. 
+
+	Aynısı bizden istediğiniz yardımlarda da geçerli. Ben dersleri anlaşılır kılmak için elimden geldiğince uğraşıyorum, anlaşılmayan yerlere geri dönüyorum, en uygun materyalleri seçmeye çalışıyorum, bir sıkıntısı olanlar bana geç olmadan bildirirlerse elimden ne geliyorsa yapıyorum. Sizin iyi ya da kötü not almanız umrumda değil. Bu materyalleri öğrenmeniz umrumda, maaşımı da bunun için alıyorum. Ancak siz bu materyalleri öğrenirseniz ben maaşımı hak etmiş olacağım. 
+	
+	Ama siz yardım istemeyi, not isteme olarak anlıyorsunuz. Bir dönem boyunca birlikte çabalayıp öğrenmektense, son dakika golüyle bu işleri halledebileceğinize inandırmış birileri sizi. Yanlış. Biz hocalarınızdan ve arkadaşlarınızdan yardımlarınızı sınav esnasında değil, sonrasında da değil, öncesinde, derste, dersi anlamak için istemelisiniz. 
+
+Ben tanışabildiğim kadarınızla tanışmaktan çok memnunum, daha sağlıklı günlerde görüşmek dileğiyle.
+
+Emre Ergin  
+Dr. Öğretim Üyesi  
+BAİBÜ-İktisat Teorisi Anabilim Dalı

@@ -1,0 +1,5 @@
+>As a result, the coupon on non-interest-based government securities can be issued and traded in equity markets that promise on maturity to pay a rate of return represented by an average rate of return on the underlying assets that is equal to the rate of return in the private sector.
+
+[[Introduction to Islamic Economics]] kitabından.
+
+Bu doğrudan, şu anki makroekonomik literatürdeki faiz tanımının meşrulaştırılması demek oluyor, maalesef. Ancak şöyle düşünülebilir mi? Buna *ex-post facto* interest dersek, yani beklenen değil, gerçekleşmiş kâr oranları üzerinden bir sonraki dönemin faiz oranı, bir önceki dönemin kâr oranına eşitlenirse, bunun iktisadî etkileri ne olur? Kurulacak düzenin islâmi olmayacağını, ama sanki yine de şimdikinden daha İslâmi olacağını düşünebilirim. Çünkü: faizler ekonomik gelişmeyle doğru orantılı: her şey iyiye gittiğinde  (gideceğinde, gitmesi beklendiğinde değil, gittiğinde) faizler artıyor, kötüye gittiğinde azalıyor. bir yönüyle günümüzün tam tersi, çünkü ekonomik krizlerde, borç almanın maliyeti sadece kârlılık beklentisiyle ilgili değil, risk faktörüyle de alakalı.

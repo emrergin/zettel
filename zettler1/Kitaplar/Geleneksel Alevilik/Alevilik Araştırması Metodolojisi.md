@@ -1,0 +1,24 @@
+- Kaynak kişilerden kıstaslara uyanların hepsi dinlenmiş.
+- Geleneksel Alevilik bilgisinin en canlı olduğu bölge Amasya'dır.
+- Alevilik 1960'lardan itibaren çözülüyor ve bugün kaynak niteliğinde çok az insan kalmış.
+- Anlatının kaydı sırasında nitel metodlar kullanılıyor ancak derlenen bilgiler bir araya getirilirken nitel metodlar da kullanılmış.
+- Geleneksel aleviliği bilecek ve modern kanallardan gelen etkilerden az etkilenmiş olacak. Etkilenmemişini bulmak imkânsız.
+- *Kaynak kişilerde aranan özellikler*:
+	- 60 yaş ve üzeri olması.
+	- Dede, âşık, baba, kamber, ana vesaire olması. Dede dışındakilerde bilginin kristalleşmediği de tespit edilmiş.
+	- Neredeyse hayatının tamamını köyde geçirmiş olması.
+	- Okuma yazma bilmiyor, biliyorsa da kendi kendine öğrenmiş olması.
+- Doğallığın sağlanması için şunlara dikkat edilmiş:
+	- Konuşanların kendi mekânlarında bulunması
+	- Kendisini açabileceği, birilerinin konuşma ortamında bulunması.
+- Görüşme dinamiği ile alakalı detaylar,
+	- Araştırmanın alevilik hakkında olduğu söylenmiş ama detaya inilmemiş.
+	- Özellikle soru sormaktan kaçınılmış.
+	- Konuşana ortamdaki en bilgili kişi olduğu hissinin verilmesi.
+	- Konuşmanın yemek ve içki üzerinden olması.
+		- Burada konunun güncele kayması beklenenden az olmuş. Kent Alevilerinde durum böyle değilmiş.
+	- Anlatıcıların dinleyenlerin beklentilerini kırmak için özen göstermek. Yoksa Aleviliğin Cumhuriyetle ne derece örtüştüğünü filan anlatıyorlarmış.
+	- Anlatıcıları daha fazla ve daha derin anlatmaya iten şey bu bilgileri demode bulmayan birilerini bulmak oluyormuş genelde.
+- Kayıtların yazıya geçirilmesi
+	- İfade farklılıkları ortak bir ifadelendirmeyle birleştirilirken, eğer bilgi farkı da varsa bu versiyonlar ayrı varyantlar olarak kaydedilmiş.
+- Kitaplar hakkında, kitapları gösterme konusunda araştırmanın gerisine nazaran daha az istekliler. Bunu neye yormalı==?==

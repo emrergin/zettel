@@ -1,0 +1,1 @@
+Eğer varsa Condorcet winnerı seçiyor, yoksa Borda uygulayıp onu seçiyor.

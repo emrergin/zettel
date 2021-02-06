@@ -1,0 +1,24 @@
+- Gelenbevî, Osmanlı zamanında hem medreselerde hem de mühendislik okullarında ders vermiş bir alim. Çok meşhur sayılmaz, kendince münzevi bir yaşamı var.
+	- https://islamansiklopedisi.org.tr/gelenbevi
+- Uygulamalı matematik alanında çalışmaları, mantık, belagat gibi konularda da eserleri var.
+- Osmanlı zamanında, yeni eserlerin başındaki girizgâhta, Allah, efendimiz (s.a.v.) ve sahabeler övülür.
+    - Bu yapılırken, kitabın içeriğinde kullanılacak terimler terimdışı manalarıyla kullanılırlar. Bu gayrıtabii Arapçayı Araplar pek sevmezler.
+    - Bu kısımda yakaladığım terimlerden en belirgini, مَبْدَأ. Prensip, öncül, ilke demek. Bu kitap özelinde kullanıldığı mana itibariyle ben manasını "aksiyom"a da benzettim.
+- Bilgi ikiye ayrılır. Kavram ve tasdik.
+- Kavram "şey"in tasavvurumuzdaki karşılığı, imgesi, sureti, sembolü demek. Şeyin kendisi demek değil, şeyin bizim algılarımızda süzülmüş aklımızla yorumlanmış hali.
+- Nisbet, iki farklı kavram arasında kurulan bir bağdır. Aitlik, mensubiyet vesaire gibi, varlıkların arasındaki ilişkiye dairdir.
+    - Ancak, bu tanım, her kavramın özü itibariyle diğer kavramlar üzerinden tanımlanmasını içermez.
+- Eğer kurulan bir nisbet tam bir cümleyse, bir "önerme" ifade ediyordur, böyle nisbetlere "haber" denir.
+    - Ayrıca, bu cümlenin doğrulanabilir ve yanlışlanabilir olması gerekir. Soru, emir, temenni, nehy olamaz.
+- Habere ikna olmanın dereceleri vardır. Şekk (şüphe) vehim, zan gibi. Eğer habere inancımız yüzde doksanı geçtiyse buna tasdik denir.
+    - Burada istatistik çerçevesiyle bir alaka var. Gözlemlerimiz sonucunda iki farklı değişkenin arasında, yüzde doksan beş ve fazla olasılıkla bir korelasyon buluyorsak buna "istatistiksel anlamlı" bir ilişki diyorduk.
+- Nisbetin varlığı, haber olması ve ona ikna olmamız durumunda buna **tasdik** denir.
+- Tasdiğin herhangi bir şartı eksikse, "tasavvur" olarak adlandırılır.
+- Peki, cehli mürekkep, yani terkip edilmiş cehalet bu tanıma dahil midir? Sonuçta o da haber değeri taşıyor ve tasdik edebiliyoruz.
+- Bu konuda Talha Hakan Alp Hocamızı ikna etmeye ısrar eden görüşleri değil, Hocamızın kendisinden ne öğrendiğimi izaha çalışacağım.
+    - Değildir.
+    - cehli mürekkebi iki kısımla inceleyebiliriz.
+    1. **Cahil olmayanın cihetinden**: Bu halde, sondaki cehl, algılanan "şey"in bir sonucu değildir. Dolayısıyla, kavramın aslında formulasyona dahil edilmeyişiyle tasdiğin koşullarını sağlamaz.
+    2. **Cahil olanın cihetinden**: Bu cihetten bakınca zaten ortada bir cehl yoktur.
+    - Bu neden önemlidir? Çünkü özü itibariyle doğrunun algılanması ve çıkarımına hizmet edecek mantık ilmine yanlışın dahil edilmesi demek, mantığın hakikati tayininin imkansız olduğunun itirafıdır. Bu da klasik ilimlere örtük bir saldırı manası taşır ve "lafzî" bir sorun olmaktan uzaktır.
+    - Benim şahsi örneğim. Çivinin ne olduğunu yanlış bilen insanların var olması, bizim "Çekiç çivilerle kullanılan bir alettir" dememizi haksız çıkarmaz, yahut bu tanıma parantezler eklememizi gerektirmez.

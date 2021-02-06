@@ -1,0 +1,2 @@
+- Kahraman Çinli Şair: [[Cui Haoxin]]
+- Social Choice Theory'nin kurucusu: [[Kenneth Arrow]]

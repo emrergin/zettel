@@ -1,0 +1,1 @@
+[[instant run off]] benzeri bir metod, ancak her adımda birinci sıraya en az konan değil, sonuncu sıraya en fazla konan aday eleniyor.

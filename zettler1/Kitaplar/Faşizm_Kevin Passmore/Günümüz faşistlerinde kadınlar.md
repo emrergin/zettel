@@ -1,0 +1,1 @@
+Kadınlar hala çocuk tarlası olarak görülüyor. Çocuk çekleri politikası öneriyorlar. Kadınla erkeğin rol değişimi hakkında korku. Pozitif ayrımcılığa karşı olma. Kadınları doğrudan ilgilendiren konular artık siyasette daha fazla ve neofaşistleri destekleyen kadınların da eli eskisinden daha kuvvetli.

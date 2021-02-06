@@ -1,0 +1,1 @@
+Her sektörün çıktısının GDP'ye bölündüğünde bulunan sektörel ağırlıklar. Bütün ağırlıkların toplamı biri geçiyor, çünkü bazı sektörlerin üretimi ara ürün olduğundan, son GDP düşünüldüğünde birden fazla sektöre dahil olmuş oluyorlar.
