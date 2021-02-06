@@ -1,4 +1,0 @@
-- **Ebubekir**: Kabileler kendisine zekât vermeyi reddediyorlar. Gelen ayetlerin muhatabının resulullah olduğu, dolayısıyla Ebubekir'in zekât toplaması iddiasının temelsiz olduğunu söylüyorlar. Ridde savaşlarının sebeplerinden birisi bu.
-- **Ömer**: Kendisi döneminde Yemen'de zekât verecek kimse kalmıyor. At ve kölelerden, gümrük vergisi, taze sebze meyveden zekât almıyor.
-- [[Hz. Osman Döneminde Zekât]]:  Zekât ve devlet arasındaki ilişkinin kopmasına sebep oluyor. 
-- **Ali**: Hicazın vergisini Şam'daki Muaviye'nin toplamaya davranması savaşa yol açıyor.

@@ -1,2 +1,0 @@
-- [[confirmation bias| Doğrulama yanlılığı]]nın kişiye özgüven verecek bilgilere karşı zaafiyet içeren tipidir.
-- *"öznel onaylama* diye çevirdim.

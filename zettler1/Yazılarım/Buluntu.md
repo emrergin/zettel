@@ -1,1 +1,0 @@
-İnsanların kendilerini robota benzettikleri ve robotların kendilerini insana benzettikleri ve insanları işe alırken bir robot mu yoksa insan mı olduğunu soramadığın zamanlar için böyle bir isim, meselâ, kendisine Buluntu 248 diyen bir kadının bulunması fikri bence çok da absürt değil.

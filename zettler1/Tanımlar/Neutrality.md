@@ -1,1 +1,0 @@
-Neutrality, alternatiflerin isimlendirilmelerinin ya da sıralandırılmalarının seçim sonucuna bir etkileri olmaması durumuna verilen ad. Bütün a'lar yerine b, b'ler yerine c c'ler yerine de a yazsak, seçim sonucu da eski sonuca aynı [[permütasyon]]un uygulanmasıyla bulunur.

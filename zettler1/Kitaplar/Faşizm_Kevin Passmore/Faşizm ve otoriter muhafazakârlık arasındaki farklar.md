@@ -1,4 +1,0 @@
-1. Muhafazakârlıkta ulusun temsili seçkinlerdir ve bu da "aile,mülkiyet,kilise,ordu" gibi bazı çıkarların korunması aracılığıyla diktenin şiddetini azaltır.
-2. Muhafazakârlık devlet araçlarını baskı için kullanırken, faşizm mobilize halk kuvvetlerini kullanır. Halk illa mobilize edilecekse, muhafazakârlık bunun yerleşik yetkililerin liderliğinde yapılmasını tercih eder.
-3. Faşistler muhafazakârlıkla ittifak halinde görünse de, ulusun çıkarlarının bunu gerektirdiğini düşünürlerse, muhafazakâr çıkarları: aile,din,mülkiyet,üniversiteler, kamu hizmetlerini çiğneyebilirler.
-4. Muhafazakârlar kadınlara devlete bağlı olmayan çalışma sahaları verirken, faşistler kadın topluluklarına bağımsız bir hareket alanı vermez.

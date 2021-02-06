@@ -1,4 +1,0 @@
-Tiyatro Eseri. Yazarı: Henrik Ibsen
-
-### Özeti:
-Kocasının mirasıyla bir yetimhane yaptıran Bayan Alving rahiple bu yetimhaneyi sigortalatıp sigortalatmaması gerektiği hakkında konuşur. Bayan Alving'in çok dindar olmayan hasta bir oğlu vardır. Evdeki hizmetçi Regina'nın gerçek babası ile sahte babası farklı kişilerdir. Sahte baba, Regina'nın kendi yarı kardeşiyle evlenmesi için planlar yaparken, rahip ve Bayan Alving bunu durdurmaya çalışır. Yetimhaneyi birisi yakar ve suç sahte baba yüzünden rahibe kalır. Bayan Alving Regina'nın ve oğlunun yarıkardeş olduğunu Regina'ya açıklar. Oğlan hastalanıp ölür.

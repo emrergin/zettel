@@ -1,5 +1,0 @@
-Faşizmin hem sebeplerinden hem de izdüşümlerinden birisi erilliktir. 1. dünya savaşında Cephede ve gerisindde aktif rol almak durumunda kalan kadınlar, yeni keşfettikleri bağımsızlıklarını feminizme evirdiler. Savaştan sonra pek çok ülkede kadınlar oy hakkı elde edebildiler.
-
-Kadınların işgücüne katılması, bunun gerektirdiği kıyafetlerin giyilmesi ve evden uzaklaşmalarıyla, savaşın azalttığı nüfusu yenileme ihtiyacının gerektirdiği annelik ihtiyacı çelişti. Faşizm de zaten özü itibariyle, "diğerlerinden daha erkek olduğunu iddia eden" bir düşünce olduğundan, bu gelişmeler faşizmi güçlendirdi.
-
-Faşistler, kadınların evden çıkmalarına karşılar. Erkeksi giyinmelerine karşı olanlar da var. Makyaj yapmalarına yahut açıktan sigara içmelerine karşılar. En çok da çocuk yapmama ihtimallerine karşılar. 

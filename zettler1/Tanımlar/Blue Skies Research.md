@@ -1,1 +1,0 @@
-Pratik faydası doğrudan görülemeyen, teorik, merak bazlı araştırmalara deniyor. Temel bilimlerle eş değer kullanıldığı da vaki.

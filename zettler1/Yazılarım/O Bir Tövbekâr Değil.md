@@ -1,1 +1,0 @@
-[[Acziyetin Tekniği]]nden bir öykü. Hırsızlık yaptığı için eli kesilen bir eski hırsızın elinin hırsızlığa devam ettiği konusundaki hezeyanları hakkında.

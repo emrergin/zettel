@@ -1,1 +1,0 @@
-Bütün seçimi ikili turnuvalara indirgiyoruz. Eğer herhangi bir aday diğer bütün adaylara ikili kıyaslarda galip geliyorsa ona Condorcet kazananı diyoruz.

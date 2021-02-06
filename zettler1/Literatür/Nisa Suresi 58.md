@@ -1,8 +1,0 @@
-> إِنَّ اللّهَ يَأْمُرُكُمْ أَن تُؤدُّواْ الأَمَانَاتِ إِلَى أَهْلِهَا وَإِذَا حَكَمْتُم بَيْنَ النَّاسِ أَن تَحْكُمُواْ بِالْعَدْلِ إِنَّ اللّهَ نِعِمَّا يَعِظُكُم بِهِ إِنَّ اللّهَ كَانَ سَمِيعًا بَصِيرًا
-
-> Allah, size emanetleri ehline vermenizi, insanlar arasında hükmettiğiniz zaman adaletle hükmetmenizi emreder. Allah size böylece ne güzel öğüt veriyor. Doğrusu, Allah işiten, görendir.
-
-Süleyman Ateş Kur'an-ı Kerim ve Yüce Meali
-
-#kuran
-

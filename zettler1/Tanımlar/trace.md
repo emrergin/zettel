@@ -1,1 +1,0 @@
-Lineer cebirde, bir matrisin ilk köşegeninin toplamına eşittir.

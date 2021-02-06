@@ -1,1 +1,0 @@
-evrimsel biyolojiden webtasarımına kadar uygulaması olan bir ilke: yaratıklar tembeldir.
