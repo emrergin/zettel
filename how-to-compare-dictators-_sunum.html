@@ -1,0 +1,159 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>How to compare dictators _SUNUM_</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>How to compare dictators _SUNUM_</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p><a href="how-to-compare-dictators.html">How to compare dictators</a><br />
+<a href="sunumdenemesi.html">SunumDenemesi</a></p>
+
+<h3 id="slide-1">Slide 1</h3>
+
+<p>Hello everyone, I am Emre Ergin from Bolu Abant İzzet Baysal University, Turkey and will be presenting "How to compare rulers"<br />
+This paper was originally named as how to compare dictators. But nowadays, in this political climate, the word itself is a bit loaded, so instead I went with "ruler"<br />
+What do I mean by that?</p>
+
+<h3 id="slide-2">Slide 2</h3>
+
+<p>When we elect a representative, they decide on behalf of us for some period of time. This is basically how representative democracy works. We do not select between different world states, but someone to decide for us. This implies, just as any voter has a preference regarding different options that the country will face with, the ruler herself may also be represented by a ranking. This understanding can be modelled by the concept of <a href="social-welfare-rule.html">Social Welfare Rule</a>s.</p>
+
+<h3 id="slide-3">Slide 3</h3>
+
+<p>When trying to understand how the agents compare different rulers in this sense, in the literature, distances that are defined on permutations can be used. While there are many such distances, the most commonly used distance is the Kemeny distance. It basically measures the number of swaps needed to reach to a ranking from another one. And it is used to formulate strategy proofness in some papers including one of ours and one from Walter.</p>
+
+<h3 id="slide-4">Slide 4</h3>
+
+<p>But there are some problems with this. First, we detach the order between rulers from the valuations of alternatives. Even if we have any information about the intensities of preferences for example, we ignore this. And second, this way of looking at the social welfare rules are not testable. If we <a href="induced-preferences.html">induce some preferences</a> in the lab, there is a straightforward way to translate any result of a social choice functions to monetary payments, but same is not true for social welfare rules.</p>
+
+<h3 id="slide-5">Slide 5</h3>
+
+<p>Then how should we understand a ranking as the collective preference? As Arrow says:</p>
+
+<blockquote>
+  <p>... sometimes not all of the ... alternatives will be available. In analogy with the usual utility analysis of the individual consumer under conditions of constant wants and variable price-income situations, rational behavior on the part of the community would mean that the community orders the three alternatives according to its collective preferences once for all, and then chooses in any given case that alternative among those actually available which stands highest on this list.</p>
+</blockquote>
+
+<h3 id="slide-6">Slide 6</h3>
+
+<p>This implies a framework in which, rankings are not compared directly, instead, we check which alternatives they will be preferring in each of the world states. If the availability set is singleton or empty there will be no difference in the selected alternative. In contrast to this, any non-singleton alternative set can be reduced to their maximal element according to the ranking we are considering.</p>
+
+<h3 id="slide-7">Slide 7</h3>
+
+<p>Finally, some notation to formalize the discussion. $A$ is a set of alternatives. $p$ is a preference of the agent, and this is a total order. $R$ is also a total order and is understood as a ranking for some ruler. $u$ is a utility vector that represents $p$.</p>
+
+<h3 id="slide-8">Slide 8</h3>
+
+<p>$R(i)$ denotes the alternative ranked at $i^{th}$ position in ranking $R$. The intersection between two rankings are the pairs that they agree on. Union is defined similarly. Finally, probability vector $v$ is defined as the probability that some alternative is available in the future. I assume the availability of different alternatives is independent from each other.</p>
+
+<h3 id="slide-9">Slide 9</h3>
+
+<p>This simple framework, without introducing any specific parameters, already agrees with some notion that is used in the literature. A ranking is between two others if it agrees with at least one of them. And an ordering of rankings satisfy betweenness if $R_1$ is preferrred to $R_2$ whenever $R_1$ is between $p$ and $R_2$. Walter's 2014 paper use this to form a partial order over all orders. And the current framework also agrees with it.</p>
+
+<h3 id="slide-10">Slide 10</h3>
+
+<p>Here is an example. If the preference of the agent is $dcba$ betweenness condition tells us they will be preferring $dcba$ to $cdba$ and $cdba$ to $cdab$ and so on and so forth, but this relation is not complete. Just using this notion is not enough to compare for example $cadb$ with $cbda$. To complete the relation, we can use metrics that satisfy this condition, or we can assume some specific parameters in the framework I am suggesting.</p>
+
+<h3 id="slide-11">Slide 11</h3>
+
+<p>Based on all of this, the utility function that represents the ordering by the agent is as follows. For a preference $p$, for a utility function that represent $p$ and a probability vector $v$, we have the following. To sum it up, agent will check the valuation of the first alternative, in the order of the _ruler_ and this is multiplied by the probability that the first alternative is available. If it is not available, then we go to the next one. Utility for the any alternative in the order of the _ruler_ is multiplied by probability that this alternative is available, plus probability that prior alternatives in the order of the ruler are _not_ available. As you can see, this is an expected utility formulation.</p>
+
+<h3 id="slide-12">Slide 12</h3>
+
+<p>From betweenness assumption we know that the agent will like their own rule best. To make the discussion more analogous to that of distances, I define a dissimilarity function, as follows. For a preference $p$, for a utility function that represent $p$ and a probability vector $v$, we have the dissimilarity function. This basically measures the decrease in the utility of the agent compared to the case where their ranking is ruling over them. To be able to analyze the implications, I am assuming that the intensities are common across any rankings.</p>
+
+<h3 id="slide-13">Slide 13</h3>
+
+<p>Here is a reminder for the metric properties. Identity of indescernibles is the most natural one here. The 'disutility' the agent will get from their own ranking is zero, and only that ranking has this. Symmetry<sup class="footnote-ref" id="fnref-1"><a href="#fn-1">1</a></sup> means if we happened to change places with the ruler, the disutility would not change. This may also be seen as natural but not to the extent of the first one. And the last property, the triangle inequality is the least natural one. It may be seen as a superiority of a direct democracy if we take $R_1$ as some voter, $R_2$ as some delegate or a senator, and $R_3$ as the president. But the difficulty in the interpretation already hints the main result: It is not that natural to expect it.</p>
+
+<h3 id="slide-14">Slide 14</h3>
+
+<p>Identity of indiscernibles is almost always satisfied, except when the probability vector includes some $1$s or some $0$. </p>
+
+<h3 id="slide-15">Slide 15</h3>
+
+<p>For symmetry to be satisfied we need two conditions. First, the probability vector should be constant. Second, the increase in the utility level between adjacent intensity levels should follow a specific rule. As an example, for the constant probability of $0.5$, and for four alternatives the utilities should be $1,2,4,8$.</p>
+
+<h3 id="slide-16">Slide 16</h3>
+
+<p>Not possible for any $u$ and $v$ pair.</p>
+
+<h3 id="slide-17">Slide 17</h3>
+
+<p>Understood this way, the order of the agent can be formalized by at-most a semi-metric. My main result implies the distances may not be natural for comparing rulers, and it suggests a way to understand the problem of representation in a more consequentialist way.</p>
+
+<div class="footnotes">
+<hr />
+<ol>
+<li id="fn-1">
+<p>can be understood as, the distance from me to the ruler is always equal to the distance from the ruler to me.&#160;<a href="#fnref-1" class="footnoteBackLink" title="Jump back to footnote 1 in the text.">&#8617;</a></p>
+</li>
+</ol>
+</div>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="how-to-compare-dictators.html">How to compare dictators</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

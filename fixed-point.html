@@ -1,0 +1,88 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>fixed point</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>fixed point</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Bir fonksiyonun değerinin tanımına eşit olduğu nokta, $f(x)=x$. Fonksiyonun $y=x$ doğrusu ile kesişimi olduğu yerler olarak anlaşılabilir.</p>
+
+<p>İktisat'ta bir sürü kullanım sahaları olan bir kavram, çünkü denge ima ediyor. Meselâ <strong>Nash dengesi</strong> bunlardan birisi. Hamleye en iyi cevaba en iyi cevabın o hamle olması durumu. Bütün piyasalarda arz ve talebin birbirine tekabül etmesine yarayacak fiyatın varlığını söyleyen genel denge teoremi de bu kavramı kullanıyor. </p>
+
+<ul>
+<li><strong>Brouwer fixed-point theorem</strong>: Herhangi bir <strong>kompakt</strong> <strong>konveks küme</strong>yi kendisine götüren her <strong>sürekli fonksiyon</strong>un bir fixed pointi vardır.</li>
+<li><strong>Kakutani fixed-point theorem</strong>: Bir kümeyi kendi altkümelerine götüren fonksiyonlar, eğer <strong>kapalı grafikleri</strong> varsa ve değeri hiçbir noktada boş küme değilse ve her noktada konveksse o zaman bu kümedeğerli fonksiyonun bir fixed pointi vardır. Burada fixed point biraz daha ilginç tanımlanıyor. $x\in f(x)$.<br />
+<ul><br />
+<li>Burada kapalı grafik şartı sürekliliğe biraz benziyor. Tam farkını öğrenmedim.</li><br />
+<li>Alternatif ifade: $S$, $R^n$'de, boş olmayan, kompakt ve konveks bir küme olsun. $φ: S→2^S$ fonksiyonu $S$'de tanımlı <strong>upper hemicontinuous</strong> set-valued function olsun. O zaman $φ$ fonksiyonunun bir fixed pointi vardır.</li><br />
+</ul></li>
+</ul>
+
+<p><span class="tag">linklenebilir</span> </p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="matematik.html">Matematik</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

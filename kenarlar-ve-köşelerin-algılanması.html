@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Kenarlar ve köşelerin algılanması</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>Kenarlar ve köşelerin algılanması</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Görsel duyu hücreleri <em>ganglion</em>ların yapısı basitleştirilmiş haliyle şu şekilde:</p>
+
+<ol>
+<li>Merkezde on adet pozitif reseptör var. Bunlar üzerine ışık düştüğünde +1 uyarı veriyorlar.</li>
+<li>Hücrenin varoşlarında da, beş adet negatif reseptör var. Bunlar üzerine ışık düştüğünde -1 uyarı veriyorlar.<br />
+<ul><br />
+<li>İki reseptör tipi de, eğer üzerlerine bir ışık verilmezse uyarı vermiyorlar: 0.</li><br />
+</ul></li>
+<li>Çekirdek hücreleri bir arada dururken, varoştaki hücreler hücrenin çevresine seyrek olarak homojen bir şekilde serpilmişler.</li>
+</ol>
+
+<p>Bu basit sistemin nasıl bir ilginçliğe evrileceğini aşağıda açıklayayım. <strong>Sübhanallah</strong>:</p>
+
+<ul>
+<li>Bütün yüzeyi ışıklı olan bir hücre düşünelim. Hem pozitif reseptörlerin hepsi, hem de negatif reseptörlerin hepsi uyarılacak. 10x1-5x1=5</li>
+<li>Bütün yüzeyi karanlık bir hücre düşünelim. Hiçbir reseptör uyarılmayacak: 0.</li>
+<li>Çekirdeğin aydınlık, varoşların bir kısmının (meselâ ikisinin) karanlık olduğu bir hücre düşünelim: 10x1-3x1=7</li>
+<li>Çekirdeğin karanlık, varoşların bir kısmının (meselâ ikisinin) aydınlık olduğu bir hücre düşünelim: -2x1=-2</li>
+</ul>
+
+<p>Özetle:</p>
+
+<ul>
+<li>Hücre tamamen karanlıktaysa 0 uyarılırken, tamamen aydınlıktaysa 5 uyarılıyor.</li>
+<li>Ancak hücrenin bir kısmı uyarılıyor ve diğer kısmı uyarılmıyorsa, -2 veya 7 uyarılıyor. </li>
+</ul>
+
+<p>Yani, </p>
+
+<ul>
+<li>Tamamı aydınlıkta yahut tamamı karanlıkta olmayan hücreler arasındaki sinyal kontrastı daha fazla oluyor.</li>
+<li>Cisimlerin yahut aydınlık ve karanlık alanlar arasındaki sınırların, kenarların ve köşelerin algılanması sırasında 0 ile 5 arasında olandan daha büyük bir kontrast üretilmiş oluyor.</li>
+</ul>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"></div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

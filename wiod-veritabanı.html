@@ -1,0 +1,127 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>WIOD veritabanı</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>WIOD veritabanı</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Kısaca, Dünya Girdi Çıktı Veritabanı.<br />
+http://www.wiod.org/home</p>
+
+<p>Alıntılar:</p>
+
+<pre><code class="plaintext lang-plaintext language-plaintext">- timmer2015illustrated - An illustrated user guide to the world input--output database: the case of global automotive production
+- timmer2016anatomy - An anatomy of the global trade slowdown based on the WIOD 2016 release</code></pre>
+
+<p>Avrupa Birliği Komisyonu'ndan para almışlar ve ülkelerin ulusal istatistiklerini derlemişler, farklı hesap metodlarıyla aralardaki boşlukları doldurmuşlar. Ülkelerin açıkladığı tekil bilgileri bir optimizasyon sorunu olarak çözmüşler, kısaca. Bunun yanında baş ettikleri başka bir sürü detay daha var. Meselâ ülkelerin hangi fiyat tipini açıkladığı: Üretici fiyatı/Son fiyat.</p>
+
+<ul>
+<li>Bir diğer sorun, GÇT tabloları her sene güncellenmiyor, ancak ulusal hesaplar gerekli görüldüğünde güncelleniyorlar. Dolayısıyla ülkeler arasındaki tutarlılığı sağlamak için açıklanan verinin üzerinde bile düzenleme yapmak gerekebiliyor.</li>
+<li>En güncel hali 2016'da yayınlanmış. Ama veri 2014'e kadar?</li>
+</ul>
+
+<h3 id="ras-metodu">RAS metodu</h3>
+
+<p>Bu ekstrapolasyonun ve optimizasyonun adımlarını açıklamamışlar, bu alandaki literatüre referans vermişler.</p>
+
+<ul>
+<li>Kendi makalesi sanırım: <strong>Joint estimation of supply and use tables</strong></li>
+<li>Tekniğin adı: RAS method. Açılımı bilinmiyor. En basit haliyle toplanmış verideki satır ve sütunların birbiriyle uyumlu olmasını sağlamak için geliştirimiş. biproportional method da deniyor.</li>
+</ul>
+
+<blockquote>
+  <p>generates new I-O coefficients for a target year using a prior year table in conjunction with target year total intermediate industry inputs and outputs, and total industry outputs. Hence, this method is able to produce estimates of $n^2$ pieces of information using just $3n$ new pieces of information<br />
+   <em>R. Jackson and A. Murray, “Alternative input-output matrix updating formulations,” Economic Systems Research, vol. 16, no. 2, Art. no. 2, 2004.</em></p>
+</blockquote>
+
+<ul>
+<li>Alakalı makaleler:<br />
+    - Leontief, W. W. (1941). The structure of the American economy, 1919–1929: An empirical application of equilibrium analysis. Cambridge University Press.<br />
+    - Stone, R. (1961). Input–output and national accounts. Organization for European Economic Cooperation.<br />
+    - Bacharach, M. (1970). Biproportional matrices and input–output change. Cambridge University Press.</li>
+</ul>
+
+<h3 id="turkiyeyi-alakadar-eden-ksm">Türkiye'yi alakadar eden kısmı:</h3>
+
+<ul>
+<li>İlk halinde sadece 1996, 1998, 2002 yıllarındaki veriler kullanılmış. Güncel hali bu şekilde mi tam anlaşılmıyor.<br />
+<ul><br />
+<li>Accessed May 2016 demiş. </li><br />
+<li>Türkiye GÇT Tablosu verisi: https://tuikweb.tuik.gov.tr/PreTablo.do?alt_id=1021</li><br />
+<li><em>*Bizim 2012 verisinin ne zaman açıklandığına bağlı sanırım. *</em></li><br />
+<li>s.44'teki tabloya göre bizim 2012 verisi kullanılmamış.</li><br />
+</ul></li>
+<li>Ayrıca harcama kalemleri bilgisi dahil edilmiş ve kullanılmış: https://tuikweb.tuik.gov.tr/PreTablo.do?alt_id=1105</li>
+<li>Harcama kalemlerinin dahil edilmesi, GÇTablolarının sonuç itibariyle GSYH'ya riayet etme zorunluluğundan kaynaklanıyor.</li>
+</ul>
+
+<p><a href="dünya-için-girdi-çıktı-tablosu-analizi.html">Dünya için Girdi Çıktı Tablosu Analizi</a></p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="000_giriş.html">000_Giriş</a></li>
+<li><a href="dünya-için-girdi-çıktı-tablosu-analizi.html">Dünya için Girdi Çıktı Tablosu Analizi</a></li>
+<li><a href="girdi-çıktı-modeli.html">Girdi Çıktı Modeli</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

@@ -1,0 +1,100 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>R hakkında</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>R hakkında</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><ul>
+<li>"Alt - " doğrudan &lt;- yapıyor.</li>
+<li>Bir komutu scriptten vermek istiyorsan, print komutunun içinde vermek işe yarıyor.</li>
+<li>Şu kütüphaneleri öğrenmek işime yararmış:<br />
+<ol><br />
+<li>dplyr - see the <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr vignette</a><br /><br />
+<ul><br /><br />
+<li>https://r4ds.had.co.nz/transform.html</li><br /><br />
+</ul></li><br />
+<li>ggplot2 - see the <a href="http://r-statistics.co/Complete-Ggplot2-Tutorial-Part1-With-R-Code.html">ggplot2 tutorial</a>    </li><br />
+<li>tidyr - See Hadley Wickam's <a href="https://blog.rstudio.com/2014/07/22/introducing-tidyr/">tidyr tutorial</a>    </li><br />
+<li>stringr - See the <a href="https://cran.r-project.org/web/packages/stringr/vignettes/stringr.html">stringr vignette</a>    </li><br />
+<li>Purrr - <a href="https://data.library.virginia.edu/getting-started-with-the-purrr-package-in-r/">https://data.library.virginia.edu/getting-started-with-the-purrr-package-in-r/</a></li><br />
+<li>data.table: https://atrebas.github.io/post/2020-06-17-datatable-introduction/</li><br />
+</ol></li>
+<li>print yazmaya gerek olmadan sadece yazdıracağın şeyi paranteze alarak da aynı şeyi yapabiliyormuşsun.</li>
+</ul>
+
+<h3 id="zaman-serisi-analizi">Zaman Serisi Analizi</h3>
+
+<p><strong>read.table</strong> reads data into a data frame<br />
+<strong>attach</strong> makes names of column variables available<br />
+<strong>ts</strong> produces a time series object<br />
+<strong>aggregate</strong> creates an aggregated series<br />
+<strong>ts.plot</strong> produces a time plot for one or more series<br />
+<strong>window</strong> extracts a subset of a time series<br />
+<strong>time</strong> extracts the time from a time series object<br />
+<strong>ts.intersect</strong> creates the intersection of one or more time series<br />
+<strong>cycle</strong> returns the season for each value in a series<br />
+<strong>decompose</strong> decomposes a series into the components<br />
+<strong>trend</strong>, seasonal effect, and residual<br />
+<strong>stl</strong> decomposes a series using loess smoothing<br />
+<strong>summary</strong> summarises an R object</p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"></div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

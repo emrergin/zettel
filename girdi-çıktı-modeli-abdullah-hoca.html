@@ -1,0 +1,143 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Girdi Çıktı Modeli Abdullah Hoca</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>Girdi Çıktı Modeli Abdullah Hoca</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><h2 id="abdullah-topcuoglunun-konu-ozeti"><strong>Abdullah Topçuoğlu</strong>'nun Konu Özeti</h2>
+
+<ul>
+<li>Toplam Arz = Toplam Üretim (Yurtiçi) + İthalat</li>
+<li>Girdi katsayıları matrisi=Sektör verisi/ Toplam üretim (Toplam arz)</li>
+<li>İşgücü Katsayısı L=Sektörde Çalışana Yapılan Ödeme Toplamı/Toplam Üretim<br />
+<ul><br />
+<li>L Katsayısı=Çalışanlara Yapılan Ödemeler/Toplam Arz</li><br />
+</ul></li>
+<li>Doğrudan gerisel bağlantı = Toplam Girdiler / Toplam Üretim</li>
+<li>Doğrudan önsel bağlantı = Ara Tüketim Toplamı/ Toplam talep<br />
+<ul><br />
+<li>Aratüketim Toplamı/Toplam Kullanım</li><br />
+</ul></li>
+<li>İstihdam Çarpanı=L katsayısı x Ters Leontief Matrisi</li>
+<li>Üretim Çarpanı = Leontief Matrisinin Sütun Değerleri toplamı<br />
+<ul><br />
+<li>Yapısal bağınlaşma üretim çarpanı değeri ile alakalı.</li><br />
+</ul></li>
+<li>"v" katsayısı ile gelir çarpanı hesaplanıyor.</li>
+<li>Gelir Çarpanı = V katsayısı x  Leontief Matrisi<br />
+<ul><br />
+<li>"v" katsayısı=Gayrısafi Katma Değer (GSKD) / Toplam Üretim</li><br />
+</ul></li>
+<li>Leontief Matrisinin Satır Toplamı = Toplam İleri Bağlantı</li>
+<li><p>Leontief Matrisinin Sütun Toplamı = Toplam Gelir Bağlantı</p>
+
+<ul>
+<li>Aynı zamanda buna üretim çarpanı da deniyor.<br />
+<h3 id="ithalat-ters-matrisi">İthalat Ters Matrisi</h3></li>
+</ul></li>
+<li><p>$A_T=A_M+A_D$</p>
+
+<ul>
+<li>Burada, $A_T$ toplam girdi katsayıları matrisi,</li>
+<li>$A_D$ yerli matris, $A_M$ yabancı matris</li>
+</ul></li>
+<li>$R=A_M[I-A_D]^{-1}$</li>
+<li>İthal Girdi Katsayıları Matrisini Hesaplamak için, ithalat girdi-çıktı tablosunun sektörel verilerini, toplam girdi-çıktı tablosundaki arza bölüyoruz.<br />
+<h3 id="girdi-ckt-analizinin-uretim-denkleminin-cozumu">Girdi Çıktı Analizinin Üretim Denkleminin Çözümü</h3></li>
+</ul>
+
+<p>$X=AX+Y$<br />
+$X-AX=Y$<br />
+$(I-A)X=Y$<br />
+$X=Y(I-A)^{-1}$</p>
+
+<ul>
+<li>Burada $(I-A)^{-1}$ Leontief matrisi</li>
+<li>$A$ girdi katsayıları matrisi</li>
+<li>Yani, önce girdi katsayıları matrisi ve $I$ ile gösterilen birim matrisi oluşturuyoruz. Sonra, birim matristen girdi katsayıları matrisini çıkarıyoruz ve elde edilen bu matrisin tersini alınca Leontief ters matrisini elde etmiş oluyoruz.</li>
+</ul>
+
+<h3 id="eviews-kodu-taslag">Eviews kodu taslağı</h3>
+
+<p>Matrix birim = a identity 56<br />
+matrix fark = birim - At<br />
+matrix ters = a inverse fark</p>
+
+<p>Gelir çarpanı = v katsayısı x Leontief Matrisi</p>
+
+<ul>
+<li>Ters ithalat matrisi</li>
+<li>$A_T=A_M+A_D$</li>
+<li>$R=A_M[I-A_D]^{-1}$<br />
+matrix ifark = birim - ad<br />
+matrix iters = a inverse (ifark)<br />
+matrix tersith = Am x iters</li>
+</ul>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="girdi-çıktı-modeli.html">Girdi Çıktı Modeli</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

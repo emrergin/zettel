@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>igraph_r</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>igraph_r</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><pre><code class="r lang-r language-r">grafik <-  graph_from_adjacency_matrix(data.matrix(yurtici2012),"directed",TRUE,TRUE,NULL)</code></pre>
+
+<p>koduyla grafiğe dönüştürüyorum. Veriseti zaten İsimli olduğundan grafik için ayrıca bir şey yapmama gerek yok.</p>
+
+<pre><code class="r lang-r language-r">e_centrality=eigen_centrality(grafik, directed = TRUE, scale = TRUE,
+                            weights = NULL, options = arpack_defaults)
+c_centrality=closeness(grafik, vids = V(grafik), mode =  "total", weights = max(E(grafik)$weight) - E(grafik)$weight, normalized = FALSE)
+b_centrality <- betweenness(grafik, v = V(grafik), directed = TRUE, weights = max(E(grafik)$weight) - E(grafik)$weight+0.0001,nobigint = TRUE, normalized = FALSE)
+d_centrality <- centr_degree(grafik, mode = "all",loops = TRUE, normalized = TRUE)</code></pre>
+
+<p>Belli başlı 4 centrality'i hesaplattığım kod bu şekilde. Buradan sonra korelasyon kullanarak, Girdi Çıktı modeliyle alakasını kurabilirim, ama iki sorun var.</p>
+
+<ol>
+<li>Ağırlıklar girdi çıktı modelinde iyi bir şeyken, closeness centrality ve betweenness centrality'de iyi bir şey değil. Tersine çevirmek için maksimumdan hepsini çıkarınca closeness yine çalışıyor ama betweenness pozitif bir ağırlık istiyor ve rastgele bir ekleme yapmak gerekiyor.</li>
+<li>Pearson korelasyon mu yoksa sadece sıralamarla ilgilenen Kendall Tau korelasyonu mu kullanmalıyım?</li>
+<li>Hangi merkezilikleri kullanmalıyım? Directed ve weighted (doğrultulu ve ağırlıklı) olan grafiğim için eigenvector centrality o kadar da iyi değil, ama bütün centralitylerin dünyasına girersem de çıkamayabilirim.<br />
+<ul><br />
+<li>Bu konuda aşağıdaki kütüphaneyi buldum.</li><br />
+</ul></li>
+</ol>
+
+<h3 id="cinna-central-informative-nodes-in-network-analysis">CINNA-Central Informative Nodes in Network Analysis</h3>
+
+<p>^520709</p>
+
+<p>Bu konuda şurayı buldum: https://www.datacamp.com/community/tutorials/centrality-network-analysis-R<br />
+    - Adım adım anlatıyor, ama sanki tam çalışmıyor adımlar. Referanslar:<br />
+    - <code>\cite{ashtiani2018systematic,ashtiani2019cinna}</code><br />
+    - https://cran.r-project.org/web/packages/CINNA/vignettes/CINNA.html<br />
+    - https://cran.r-project.org/web/packages/CINNA/CINNA.pdf<br />
+<a href="cinna-sonuçları.html">CINNA sonuçları</a></p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="ağ-teorisi.html">Ağ Teorisi</a></li>
+<li><a href="cinna-sonuçları.html">CINNA sonuçları</a></li>
+<li><a href="centrality-girdi-çıktı-i̇lişkisi.html">Centrality Girdi Çıktı İlişkisi</a></li>
+<li><a href="igraph.html">igraph</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

@@ -1,0 +1,137 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>GINI ve zekât</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>GINI ve zekât</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Hiç eşitleme mekanizmasının olmadığı, gelir vergisinin olduğu ve zekatın olduğu üç ayrı simülasyondaki eşitsizlik verisini kıyaslıyorum. Eşitsizliği <a href="gini.html">GINI</a> ile hesaplatıyorum.</p>
+
+<p>Sonuçlar umut vadedici. Toplumun gelişimini, <a href="vallejos2017.html">@Vallejos2017</a> makalesi ile denetliyorum. Burada, gelir vergisini de gelir hakeden bir insan olduğunda belirliyorum.</p>
+
+<p>Alakalı: <a href="zekât-eşitsizlikleri-nasıl-düşürür.html">Zekât eşitsizlikleri nasıl düşürür</a></p>
+
+<p>Zekât kodu genel manada şöyle işliyor:</p>
+
+<ol>
+<li>Toplumda toplam ne kadar zekât verileceğini hesaplatıyorum.</li>
+</ol>
+
+<pre><code class="py lang-py language-py">def zekatadim1(array,zekatesigi):
+    zekatmiktari=0
+    for i in range(len(array)):
+        if array[i]>zekatesigi:
+            zekatmiktari=zekatmiktari+array[i]/40
+            array[i]=array[i]*39/40
+    return array,zekatmiktari</code></pre>
+
+<p>Burada başlangıçtaki gelir dağılımı ve ne kadar paranın nisab miktarı sayılacağını belirtmemiz yetiyor.</p>
+
+<ol>
+<li>Ardından toplanan zekât miktarını toplumdaki fakirlere dağıtıyorum. Buradaki fakirleri nisab miktarının altında kalanlar olarak belirliyorum. Her defasında toplumun dağılımını yeniden sıralamaya tabii tutuyorum ki her defasında en fakire gitsin para.</li>
+</ol>
+
+<pre><code class="py lang-py language-py">def zekatadim2(array,birim,zekmik,esik):
+    fakirsayisi=(array<zekatesigi).sum()
+    while zekmik>0 and fakirsayisi>0:
+        array=np.sort(array) <span class="tag">en</span> fakirin onceligi
+        "+str(geriyekalanzekat))
+        for i in range(len(array)):
+            if array[i]<esik:
+                array[i]=array[i]+birim
+                zekmik=zekmik-birim
+                break
+        fakirsayisi=(array<esik).sum()
+    array=array+zekmik/len(array)
+    return(array)</code></pre>
+
+<p>Burada iki yeni değişkenimiz var, birincisi az önceki fonksiyonun sonucu olan zekar miktarı, diğeri ise zekatların dağıtılma miktarı. Paketlerin veya bağışların büyüklüğü diye düşünebiliriz. Bütün zekât miktarının tek bir kişiye gitmeyeceğini düşündüğümden böyle yaptım ama belki zekât miktarının bütün fakirlere eşit olarak dağıtımı da düşünülebilirdi. Buradaki kilit nokta, döngünün fakir kalmayana yahut dağıtacak para kalmayana kadar çalışıyor olması. Eğer toplumdaki fakirler biterse ama elimizde hâlâ dağıtacak para kalırsa, bunu herkese eşit olarak dağıtıyorum. Bu kamu hizmetlerini temsil ediyor, diye düşündüm.</p>
+
+<ol>
+<li>Burada, <a href="vallejos2017.html">@Vallejos2017</a> makalesinin ilk kısmının yeniden türetilmesi devreye giriyor. Buna Büyüme1 diyorum, içinde gelir vergisi olmayan saf büyüme olduğu için. Bazı parametreler için <a href="gini.html">GINI</a>yi arttırması muhakkak.<br />
+Kod şurada: <a href="vallejos2017#251fbf.html">@Vallejos2017</a></li>
+<li>Büyüme2 ise, Büyüme1'deki büyüme paketlerinin sahibine verilmeden önce belirli bir yüzdesinin kesilip, yine fakirlere dağıtılacak bir fon haline getirilmesiyle alakalı. Dağıtım algoritması 2 ile aynı.</li>
+</ol>
+
+<pre><code class="py lang-py language-py">def Buyume2(array,bbeta,Aartis,llamda,vvergiorani):
+    vergimiktari=0
+    GDPartismiktari=sum(array)*(math.exp(llamda)-1)
+    GeriyeKalanGDP=GDPartismiktari
+    while GeriyeKalanGDP>0:
+        KazancIhtimali=np.power(array,bbeta)
+        KazancIhtimali=np.transpose(KazancIhtimali/sum(KazancIhtimali))
+        kazanan = np.random.choice(np.array(list(range(1,len(array)+1))).flatten(), 1, p=KazancIhtimali.flatten())
+        array[kazanan-1]=array[kazanan-1]+(min(Aartis,GeriyeKalanGDP))*(1-vvergiorani)
+        vergimiktari=vergimiktari+(min(Aartis,GeriyeKalanGDP))*(vvergiorani)
+        GeriyeKalanGDP=GeriyeKalanGDP-min(Aartis,GeriyeKalanGDP)
+    return array,vergimiktari</code></pre>
+
+<p>Burada vergi oranı, paketin ne kadarının fakirlere ayrılacağını belirliyor.</p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="vallejos2017.html">@Vallejos2017</a></li>
+<li><a href="gini-enflasyon-etkisi.html">GINI enflasyon etkisi</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

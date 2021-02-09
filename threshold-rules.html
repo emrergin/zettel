@@ -1,0 +1,98 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Threshold Rules</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>Threshold Rules</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Threshold rules için bir threshold fonksiyonu tanımlıyoruz.</p>
+
+<p>Threshold fonksiyonu bir seri ima ediyor.</p>
+
+<p>1 ile 1/2 arasında bir sayı alıyoruz. Bu bizim $f(1)$'imiz.</p>
+
+<p>Bu sayıya bir ekliyoruz, ikiye bölüyoruz. $f(2)$'yi seçerken bu bulduğumuz değerden yüksek bir değer seçiyoruz.</p>
+
+<p>Böyle devam ediyor. Genel formül şöyle:</p>
+
+<p>$f(t+1)&gt;\frac{f(t)+1}{2}$</p>
+
+<p>Threshold fonksiyonları da şöyle işliyor:</p>
+
+<pre><code class="mermaid lang-mermaid language-mermaid">graph TD
+    A[Start with t=1] -->B["Check if power of first t delegates are greater than f(t)"]
+    B -->|If so| D[Strongest t delegates are the delegation]
+    B -->|If not increase t by one| B</code></pre>
+
+<p>oy oranı en fazla adayı alıyoruz ve belirlediğimiz $f(1)$'i geçiyor mu ona bakıyoruz. Geçiyorsa delegeyi bulduk.</p>
+
+<p>Geçmiyorsa, oy oranı en fazla ilk iki adayı alıyoruz, toplam oyları $f(2)$yi geçiyor mu ona bakıyoruz. Geçiyorsa delegeyi bulduk.</p>
+
+<p>...ve böyle devam ediyoruz.</p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="how-to-choose-a-fair-delegation.html">How to choose a fair delegation</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

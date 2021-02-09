@@ -1,0 +1,1197 @@
+@font-face {
+	font-family: "Droid Arabic Naskh";
+	/* font-size: 23px; */
+	/* font-family: "Sakkal Majalla"; */
+	unicode-range: U+0600-06FF;
+}
+body{
+  font-size: 15px;
+  font-family: "Droid Arabic Naskh","Roboto", sans-serif;
+  /* font-family: "Droid Arabic Naskh"; */
+  --font-monospace: "Fira Code", "Source Code Pro", monospace;
+  background-color: #343434;
+    color: #dcddde;
+	/* --background-primary-alt: #171717; */
+  background-primary-alt: #2c2c2c;
+  background-secondary: #2c2c2c;
+  background-secondary-alt: #2c2c2c;
+  background-modifier-border: #303030;
+  background-modifier-box-shadow: rgba(0, 0, 0, 0.85);
+  background-modifier-form-field: var(--background-primary);
+  text-accent: #df4a16;
+  text-accent-hover: #df7a16;
+
+  text-muted: #999;
+  text-faint: #666;
+  text-error: #ff3333;
+  text-error-hover: #990000;
+  text-matched: #dcddde;
+  text-on-accent: #dcddde;
+  text-selection: rgba(223, 74, 22, 0.8);
+  text-highlight-bg: #df4a16;
+  /* --interactive-normal: #2a2a2a; */
+  interactive-normal: var(--background-primary);
+  interactive-hover: #303030;
+  interactive-accent: #df4a16;
+  interactive-accent-rgb: #df7a16;
+  interactive-accent-hover: #df7a16;
+  workspace-leaf-resize: #494949;
+  scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  scrollbar-bg: rgba(255, 255, 255, 0);
+  scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  accent-strong: #ec0d0d;
+  accent-mild: #e6b64f;
+  bw: #ffffff;
+  lines-identation: #535353;
+  tooltip-bg: rgba(223, 74, 22, 0.9);
+  markup-code: #ff7f50;
+}
+
+a:link {
+  color: #ec0d0d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: #ec0d0d;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #e6b64f;
+  background-color: transparent;
+  text-decoration: underline;
+}
+
+a:active {
+  color: #e6b64f;
+  background-color: transparent;
+  text-decoration: underline;
+}  
+
+/* Resimlerin arkasi beyaz olsun*/
+.workspace-leaf-content img, .workspace-leaf-content audio, .workspace-leaf-content video{
+background-color:#ffffff;
+}
+
+
+.CodeMirror pre.CodeMirror-line {
+  font-size: 14px;
+  /* font-family: "Fira Code", "Source Code Pro", monospace; */
+}
+
+/* === DARK MODE === */
+
+
+
+
+
+
+
+
+
+
+/* === Custom Checkbox === */
+input[type="checkbox"] {
+  -webkit-appearance: none;
+  appearance: none;
+  border-radius: 50%;
+  border: 1px solid var(--text-faint);
+  padding: 0;
+}
+input[type="checkbox"]:focus {
+  outline: 0;
+}
+input[type="checkbox"]:checked {
+  background-color: var(--text-accent);
+  border: 1px solid var(--text-accent);
+  background-position: center;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  background-image: url('data:image/svg+xml; utf8, <svg width="12px" height="10px" viewBox="0 0 12 8" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-4.000000, -6.000000)" fill="%23ffffff"><path d="M8.1043257,14.0367999 L4.52468714,10.5420499 C4.32525014,10.3497722 4.32525014,10.0368095 4.52468714,9.8424863 L5.24777413,9.1439454 C5.44721114,8.95166768 5.77142411,8.95166768 5.97086112,9.1439454 L8.46638057,11.5903727 L14.0291389,6.1442083 C14.2285759,5.95193057 14.5527889,5.95193057 14.7522259,6.1442083 L15.4753129,6.84377194 C15.6747499,7.03604967 15.6747499,7.35003511 15.4753129,7.54129009 L8.82741268,14.0367999 C8.62797568,14.2290777 8.3037627,14.2290777 8.1043257,14.0367999"></path></g></g></svg>');
+}
+
+.markdown-preview-view .task-list-item-checkbox {
+  margin-left: -25px;
+  top: 5px;
+  cursor: pointer;
+  filter: none; /*remove default filter*/
+}
+.markdown-preview-view .task-list-item {
+  padding-inline-start: 25px;
+}
+
+
+
+
+/* change color of selection text in code block, pre and links */
+/* .theme-light .markdown-preview-view code::selection, */
+/* .theme-light .markdown-preview-view code > *::selection, */
+/* .theme-light .markdown-preview-view pre::selection, */
+/* .theme-light .markdown-preview-view pre > *::selection, */
+/* .theme-dark .markdown-preview-view code::selection, */
+/* .theme-dark .markdown-preview-view code > *::selection, */
+/* .theme-dark .markdown-preview-view pre::selection, */
+/* .theme-dark .markdown-preview-view pre > *::selection, */
+/* *::selection { */
+  /* color: #fff; */
+  /* background-color: var(--text-selection); */
+/* } */
+
+/* change text selection background in edit mode, no way to change text color */
+/* .CodeMirror-focused .CodeMirror-selected, */
+/* .CodeMirror-selected { */
+  /* background-color: var(--text-selection); */
+/* } */
+
+/* code block:remove white bg on operators */
+.theme-light .token.operator {
+  background: hsla(0, 0%, 100%, 0);
+}
+
+
+/* === Tag Pills === */
+
+.tag {
+  background-color: var(--text-accent);
+  border: none;
+  color: white !important;
+  font-size: 11px;
+  font-weight: bold;
+  line-height: 1.6em;
+  padding: 0px 7px 1px 7px;
+  text-align: center;
+  text-decoration: none !important;
+  display: inline-block;
+  margin: 0px 2px;
+  cursor: pointer;
+  border-radius: 10px;
+}
+
+.tag[href^="#important"] {
+  background-color: red;
+}
+
+.tag[href^="#complete"] {
+  background-color: green;
+}
+
+.tag[href^="#inprogress"] {
+  background-color: orange;
+}
+
+.tag:hover {
+  color: white;
+  background-color: var(--text-accent-hover);
+}
+
+/* Tag pills in tag panel*/
+/* Thanks Klaas for idea and some realization */
+
+.tag-pane-tag-text {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  border: none;
+  font-size: 13px;
+  padding: 1px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.tag-pane-tag-count {
+  background-color: var(--background-primary);
+  color: var(--text-normal);
+  border: none;
+  font-size: 13px;
+  padding: 2px 8px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 0px 0px;
+  cursor: pointer;
+  border-radius: 14px;
+  transition: all 0.2s ease;
+}
+
+.tag-pane-tag:hover > .tag-pane-tag-count,
+.tag-pane-tag:hover > .tag-pane-tag-text {
+  background-color: var(--text-accent);
+  color: white;
+  font-weight: bold;
+}
+
+/*=== trace indentation lines === */
+
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+
+.cm-hmd-list-indent .cm-tab::before,
+ul ul::before {
+  content: "";
+  border-left: 1px solid var(--lines-identation);
+
+  position: absolute;
+}
+
+.cm-hmd-list-indent .cm-tab::before {
+  left: 0;
+  top: -5px;
+  bottom: -4px;
+}
+
+ul ul::before {
+  left: -15px;
+  top: 0;
+  bottom: 0;
+}
+
+/* ===TRANSCLUSION TWEAKS=== */
+
+.markdown-embed-title {
+  font-family: sans-serif;
+  font-size: 10px;
+  color: var(--text-accent);
+  line-height: 10px;
+  width: 100%;
+  text-align: left;
+  font-weight: 100;
+  margin: -4px 0px;
+}
+
+.markdown-preview-view .markdown-embed {
+  background-color: var(--background-primary);
+  border-radius: 0px;
+  border: 0;
+  border-left: 1px solid var(--text-selection);
+  margin: 0px -10px;
+}
+
+.markdown-embed {
+  display: block;
+  top: 0px;
+}
+
+.markdown-embed > .markdown-embed-content {
+  display: inline;
+  max-height: 100%;
+  max-width: 100%;
+  margin: -25px 0px -15px 0px;
+  padding: 0px 0px 5px 0px;
+}
+
+.markdown-embed-content > * {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  margin: 10px 0px 5px 0px;
+}
+
+.markdown-embed-link {
+  top: -3px;
+  left: -20px;
+  color: var(--accent-strong);
+  cursor: pointer;
+  position: absolute;
+}
+
+svg.link {
+  width: 12px;
+  height: 12px;
+}
+
+.file-embed-link {
+  top: 10px;
+  left: -10px;
+  color: var(--accent-strong);
+  cursor: pointer;
+  position: relative;
+}
+
+.internal-embed,
+.internal-embed > .markdown-embed > .markdown-embed-content {
+  display: block;
+  max-height: 100%;
+  max-width: 100%;
+  left: 0px;
+}
+
+.markdown-preview-view .file-embed {
+  background-color: var(--background-primary);
+  border-radius: 4px;
+  border: 2px solid var(--text-selection);
+  padding: 5px 20px 5px 20px;
+  margin: 10px 0px 10px 0px;
+}
+
+.file-embed-title {
+  font-size: 12px;
+  height: 40px;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+/* ==========headings=======*/
+h1 {
+  font-size: 34px;
+  line-height: 40px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid var(--text-accent);
+  color: var(--text-accent);
+}
+h2 {
+  font-size: 26px;
+  line-height: 36px;
+  padding-top: 14px;
+  padding-bottom: 6px;
+  border-bottom: 2px solid var(--text-normal);
+}
+h3 {
+  padding-bottom: 5px;
+  border-bottom: 1px solid var(--text-muted);
+}
+h4 {
+  padding-bottom: 4px;
+  border-bottom: 1px dashed var(--text-muted);
+}
+h5 {
+  padding-bottom: 3px;
+  border-bottom: 1px dotted var(--text-muted);
+}
+
+
+/* ==========hr======*/
+.markdown-preview-view hr {
+  height: 1px;
+  border: none;
+  background-color: var(--text-accent);
+}
+
+
+
+
+/* ====== font size headers =========*/
+
+.view-header-title {
+  font-size: 14px;
+  font-weight: 600;
+}
+
+/* ===== view header color ==========*/
+
+
+.view-header {
+  height: 36px;
+  display: flex;
+  border-top: 1px solid var(--background-secondary-alt);
+  border-bottom: 2px solid var(--background-secondary-alt);
+  background-color: var(--background-secondary-alt);
+  z-index: 1;
+}
+
+/* remove the gradient between title and icons */
+
+.workspace-leaf.mod-active .view-header-title-container:after {
+  background: var(--background-primary);
+}
+
+.view-header-title-container:after {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 30px;
+  height: 32px;
+  background: var(--background-secondary-alt);
+  /*border-right: 1px solid var(--background-modifier-border);*/
+}
+
+/*==== separators =====*/
+
+.workspace-leaf-resize-handle {
+  background-color: var(--background-secondary-alt);
+}
+
+.workspace-leaf-resize-handle:hover {
+  background-color: var(--workspace-leaf-resize);
+}
+
+
+
+
+.markdown-preview-view mark {
+  padding: 0 1px;
+}
+
+
+
+/* code mirror change text color */
+.CodeMirror-lines {
+  color: var(--text-normal);
+}
+.CodeMirror-lines > *::selection {
+  color: white;
+}
+
+
+/* --text-accent: #df4a16; */
+  /* --text-accent-hover: #df7a16; */
+  /* --text-normal: #dcddde; */
+  /* --text-muted: #999; */
+  /* --text-faint: #666; */
+  /* --text-error: #ff3333; */
+  /* --text-error-hover: #990000; */
+  /* --text-matched: #dcddde; */
+  /* --text-on-accent: #dcddde; */
+  /* --text-selection: ; */
+
+/*==== codemirror line numbers gutter edit mode ====*/
+
+.cm-s-obsidian .CodeMirror-linenumber {
+  color: var(--text-accent);
+  opacity: 0.5;
+  font-size: 14px;
+  font-family: Consolas, monospace;
+}
+
+.CodeMirror-gutter-elt {
+  position: absolute;
+  cursor: default;
+  z-index: 4;
+}
+
+.CodeMirror-linenumber {
+  padding: 0 3px 0 0px;
+  min-width: 20px;
+  text-align: right;
+  white-space: nowrap;
+}
+
+/* === show margins in editor mode === */
+.CodeMirror-lines {
+	
+  border-right: 1px solid var(--background-secondary);
+  border-left: 1px solid var(--background-secondary);
+}
+
+/*============bigger link popup preview  ================*/
+
+.popover.hover-popover {
+  position: absolute;
+  z-index: var(--layer-popover);
+  transform: scale(0.85);
+  max-height: 600px; /* was 300 */
+  min-height: 100px;
+  width: 500px;
+  overflow: hidden;
+  padding: 0;
+  border-bottom: none;
+  transition: all 0.5s ease;
+  opacity: 0.95;
+}
+/* .popover.hover-popover.is-loaded {
+  transition: all 2s ease;
+  opacity: 1;
+} */
+
+.popover {
+  background-color: var(--background-primary);
+  border: 1px solid var(--background-primary-alt);
+  box-shadow: 3px 3px 7px var(--background-modifier-box-shadow);
+  border-radius: 6px;
+  padding: 15px 20px 10px 20px;
+  position: relative;
+  font-weight: 500;
+  -webkit-text-stroke: 0.2px;
+  -webkit-font-smoothing: none;
+  color: var(--bw);
+}
+/* --- the bottom gradient ---*/
+.popover.hover-popover:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 0px; /* 50px */
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: linear-gradient(
+    to bottom,
+    transparent,
+    var(--background-primary) 80%,
+    var(--background-primary)
+  );
+}
+
+/* === footnotes === */
+
+.footnotes {
+  text-align: justify;
+  hyphens: auto;
+  font-size: 12px;
+}
+
+sup {
+  vertical-align: top;
+  font-size: 11px;
+  display: inline-block;
+  position: relative;
+  margin: -4px 0 0 3px;
+}
+sub {
+  vertical-align: bottom;
+  font-size: 11px;
+  display: inline-block;
+  position: relative;
+  margin: 0px 0 -4px 3px;
+}
+/* === Quote Block === */
+.markdown-preview-view blockquote {
+  border-radius: 4px;
+  border: 0px solid var(--background-modifier-border);
+  background-color: var(--background-secondary);
+  border-left: 5px solid var(--text-accent);
+  padding: 14px 10px 10px 10px;
+  display: block;
+  margin-block-start: 0.5em;
+  margin-block-end: 1em;
+  margin-inline-start: 20px;
+  text-align: justify;
+  hyphens: auto;
+  /* margin-inline-start: 0; */
+  
+}
+.markdown-preview-view blockquote p {
+  display: inline;
+  margin: 0;
+}
+/* Add quotation character before and after quote */
+.markdown-preview-view blockquote:before {
+  font: 14px/20px serif;
+  color: var(--text-accent);
+  content: "\201C";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+}
+.markdown-preview-view blockquote:after {
+  font: 14px/20px serif;
+  color: var(--text-accent);
+  content: "\201D";
+  font-size: 3em;
+  line-height: 0.1em;
+  vertical-align: -0.3em;
+}
+
+/*=============== lists bullets ================*/
+ul {
+  list-style-type: disc;
+}
+ul ul {
+  list-style-type: disc;
+}
+ul ul ul {
+  list-style-type: circle;
+}
+
+/* ==== Table Styles ==== */
+.markdown-preview-view table,
+.markdown-preview-view th,
+.markdown-preview-view td {
+  border: 1px solid var(--text-faint);
+}
+
+.markdown-preview-view th {
+  background-color: var(--background-secondary-alt);
+}
+.theme-dark .markdown-preview-view tr:nth-child(even) {
+  background-color: rgba(255, 255, 255, 0.03);
+}
+.theme-light .markdown-preview-view tr:nth-child(even) {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+/*=============== tables align ================*/
+tbody {
+  display: table-row-group;
+  vertical-align: top;
+  border-color: inherit;
+}
+/*=============== add mods below ================*/
+/*=============== add mods below ================*/
+/*=============== add mods below ================*/
+
+/*----file explorer column view : slightly buggy ----*/
+.nav-folder-children {
+  column-width: 200px;
+  column-rule: 1px solid var(--background-modifier-border);
+}
+
+/* Wrap long nav text and some paddings */
+.nav-file-title,
+.nav-folder-title {
+  white-space: normal;
+  width: auto;
+  line-height: 1.1;
+}
+
+/* Indent wrapped nav text */
+/* .nav-file-title-content {
+  margin-left: 10px;
+  text-indent: -10px;
+} */
+
+/* Justify preview text */
+.markdown-preview-view p {
+  text-align: justify;
+  hyphens: auto;
+}
+
+/* reduce size of embedded files */
+/* .markdown-preview-view img, */
+.markdown-preview-view audio,
+.markdown-preview-view video {
+  max-width: max(500px, 60%);
+  outline: none;
+}
+
+
+/* Task styling */
+
+/* Default task */
+
+.task {
+  stroke-width: 0.5px !important;
+}
+
+.taskText {
+  text-anchor: middle !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.taskText:not([font-size]) {
+  font-size: 9px !important;
+}
+
+.taskTextOutsideRight {
+  fill: var(--text-normal) !important;
+  text-anchor: start !important;
+  font-size: 9px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.taskTextOutsideLeft {
+  fill: var(--text-normal) !important;
+  text-anchor: end !important;
+  font-size: 9px !important;
+}
+
+/* Special case clickable */
+
+.task.clickable {
+  cursor: pointer !important;
+}
+
+.taskText.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+.taskTextOutsideLeft.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+.taskTextOutsideRight.clickable {
+  cursor: pointer !important;
+  fill: var(--interactive-accent_hover) !important;
+  font-weight: bold !important;
+}
+
+/* Specific task settings for the sections*/
+
+.taskText0,
+.taskText1,
+.taskText2,
+.taskText3 {
+  fill: var(--text-normal) !important;
+}
+
+.task0,
+.task1,
+.task2,
+.task3 {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.taskTextOutside0,
+.taskTextOutside2 {
+  fill: var(--text-muted) !important;
+}
+
+.taskTextOutside1,
+.taskTextOutside3 {
+  fill: var(--text-muted) !important;
+}
+
+/* Active task */
+
+.active0,
+.active1,
+.active2,
+.active3 {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.activeText0,
+.activeText1,
+.activeText2,
+.activeText3 {
+  fill: var(--text-normal) !important;
+}
+
+/* Completed task */
+
+.done0,
+.done1,
+.done2,
+.done3 {
+  stroke: var(--text-muted) !important;
+  fill: var(--text-faint) !important;
+  stroke-width: 1 !important;
+}
+
+.doneText0,
+.doneText1,
+.doneText2,
+.doneText3 {
+  fill: var(--text-normal) !important;
+}
+
+/* Tasks on the critical line */
+
+.crit0,
+.crit1,
+.crit2,
+.crit3 {
+  stroke: var(--accent-strong) !important;
+  fill: var(--accent-strong) !important;
+  stroke-width: 1 !important;
+}
+
+.activeCrit0,
+.activeCrit1,
+.activeCrit2,
+.activeCrit3 {
+  stroke: var(--accent-strong) !important;
+  fill: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+.doneCrit0,
+.doneCrit1,
+.doneCrit2,
+.doneCrit3 {
+  stroke: var(--accent-strong) !important;
+  fill: var(--text-muted) !important;
+  stroke-width: 0.5 !important;
+  cursor: pointer !important;
+  shape-rendering: crispEdges !important;
+}
+
+.milestone {
+  transform: rotate(45deg) scale(0.8, 0.8) !important;
+}
+
+.milestoneText {
+  font-style: italic !important;
+}
+
+.doneCritText0,
+.doneCritText1,
+.doneCritText2,
+.doneCritText3 {
+  fill: var(--text-normal) !important;
+}
+
+.activeCritText0,
+.activeCritText1,
+.activeCritText2,
+.activeCritText3 {
+  fill: var(--text-normal) !important;
+}
+
+.titleText {
+  text-anchor: middle !important;
+  font-size: 16px !important;
+  fill: var(--text-normal) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.classGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-family: consolas, monospace, Segoe UI, "trebuchet ms", verdana, arial !important;
+  font-size: 8px !important;
+}
+
+g.classGroup text .title {
+  font-weight: bolder !important;
+}
+
+g.clickable {
+  cursor: pointer !important;
+}
+
+g.classGroup rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+}
+
+g.classGroup line {
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+.classLabel .box {
+  stroke: none !important;
+  stroke-width: 0 !important;
+  fill: var(--background-secondary-alt) !important;
+  opacity: 0.2 !important;
+}
+
+.classLabel .label {
+  fill: var(--text-accent) !important;
+  font-size: 10px !important;
+}
+
+.relation {
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+}
+
+.dashed-line {
+  stroke-dasharray: 3 !important;
+}
+
+#compositionStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#compositionEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#aggregationStart {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#aggregationEnd {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#dependencyStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#dependencyEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#extensionStart {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+#extensionEnd {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+.commit-id,
+.commit-msg,
+.branch-label {
+  fill: var(--text-muted) !important;
+  color: var(--text-muted) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.pieTitleText {
+  text-anchor: middle !important;
+  font-size: 18px !important;
+  fill: var(--text-normal) !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.slice {
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.stateGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-size: 10px !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+g.stateGroup text {
+  fill: var(--text-accent) !important;
+  stroke: none !important;
+  font-size: 10px !important;
+}
+
+g.stateGroup .state-title {
+  font-weight: bolder !important;
+  fill: var(--background-secondary-alt) !important;
+}
+
+g.stateGroup rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+}
+
+g.stateGroup line {
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+}
+
+.transition {
+  stroke: var(--text-accent) !important;
+  stroke-width: 1 !important;
+  fill: none !important;
+}
+
+.stateGroup .composit {
+  fill: var(--text-normal) !important;
+  border-bottom: 1px !important;
+}
+
+.stateGroup .alt-composit {
+  fill: #e0e0e0 !important;
+  border-bottom: 1px !important;
+}
+
+.state-note {
+  stroke: var(--text-faint) !important;
+  fill: var(--text-accent) !important;
+}
+
+.state-note text {
+  fill: black !important;
+  stroke: none !important;
+  font-size: 10px !important;
+}
+
+.stateLabel .box {
+  stroke: none !important;
+  stroke-width: 0 !important;
+  fill: var(--background-secondary-alt) !important;
+  opacity: 0.5 !important;
+}
+
+.stateLabel text {
+  fill: black !important;
+  font-size: 10px !important;
+  font-weight: bold !important;
+  font-family: Segoe UI, "trebuchet ms", verdana, arial !important;
+}
+
+.node circle.state-start {
+  fill: black !important;
+  stroke: black !important;
+}
+
+.node circle.state-end {
+  fill: black !important;
+  stroke: var(--text-normal) !important;
+  stroke-width: 1.5 !important;
+}
+
+#statediagram-barbEnd {
+  fill: var(--text-accent) !important;
+}
+
+.statediagram-cluster rect {
+  fill: var(--background-secondary-alt) !important;
+  stroke: var(--text-accent) !important;
+  stroke-width: 1px !important;
+}
+
+.statediagram-cluster rect.outer {
+  rx: 5px !important;
+  ry: 5px !important;
+}
+
+.statediagram-state .divider {
+  stroke: var(--text-accent) !important;
+}
+
+.statediagram-state .title-state {
+  rx: 5px !important;
+  ry: 5px !important;
+}
+
+.statediagram-cluster.statediagram-cluster .inner {
+  fill: var(--text-normal) !important;
+}
+
+.statediagram-cluster.statediagram-cluster-alt .inner {
+  fill: #e0e0e0 !important;
+}
+
+.statediagram-cluster .inner {
+  rx: 0 !important;
+  ry: 0 !important;
+}
+
+.statediagram-state rect.basic {
+  rx: 5px !important;
+  ry: 5px !important;
+}
+
+.statediagram-state rect.divider {
+  stroke-dasharray: 10, 10 !important;
+  fill: #efefef !important;
+}
+
+.note-edge {
+  stroke-dasharray: 5 !important;
+}
+
+.statediagram-note rect {
+  fill: var(--text-accent) !important;
+  stroke: var(--text-muted) !important;
+  stroke-width: 1px !important;
+  rx: 0 !important;
+  ry: 0 !important;
+}
+
+:root {
+  --mermaid-font-family: '"trebuchet ms", verdana, arial' !important;
+  --mermaid-font-family: "Comic Sans MS", "Comic Sans", cursive !important;
+}
+
+/* Classes common for multiple diagrams */
+
+.error-icon {
+  fill: var(--text-error) !important;
+}
+
+.error-text {
+  fill: var(--text-muted) !important;
+  stroke: var(--text-muted) !important;
+}
+
+.edge-thickness-normal {
+  stroke-width: 1px !important;
+}
+
+.edge-thickness-thick {
+  stroke-width: 3px !important;
+}
+
+.edge-pattern-solid {
+  stroke-dasharray: 0 !important;
+}
+
+.edge-pattern-dashed {
+  stroke-dasharray: 3 !important;
+}
+
+.edge-pattern-dotted {
+  stroke-dasharray: 2 !important;
+}
+
+.marker {
+  fill: var(--text-muted) !important;
+}
+
+.marker.cross {
+  stroke: var(--text-muted) !important;
+}
+/* ================================================================================================================================================= */
+/* BOLD */
+/* BURADAN SONRASI BENIM EKLENTILERIM */
+/* preview */
+
+strong {
+  color: var(--markup-code);
+  font-weight: 700;
+}
+
+/* editor */
+
+.cm-strong {
+  color: var(--markup-code);
+  font-weight: 700;
+}
+
+/* ITALICS */
+
+/* preview */
+
+em{
+   color: #ffe9d2;   
+   /* font-style: oblique !important; */
+}
+
+/* editor */
+
+.cm-em {
+  color: #ffe9d2;
+  /* font-style: oblique !important; */
+}
+.cm-s-obsidian span.cm-inline-code,
+.cm-s-obsidian span.cm-inline-code.cm-hmd-indented-code,
+.CodeMirror .cm-inline-code, .CodeMirror .cm-math{
+  font-style: italic;
+  color: #189A00;
+}
+
+
+.cm-s-obsidian pre.HyperMD-codeblock{
+  color: #189A00;
+}
+
+.cm-s-obsidian span.cm-url,.cm-s-obsidian span.cm-hashtag{
+	font-style: italic;
+	color: var(--text-accent);
+}
+	
+.markdown-preview-view code{
+	color: #189A00;
+}
+.markdown-preview-view hr{
+	background-color:var(--text-normal);
+}
+
+.markdown-preview-view ul > li.task-list-item.is-checked{
+	color: var(--text-faint) !important;
+}

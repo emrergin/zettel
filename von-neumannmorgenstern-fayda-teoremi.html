@@ -1,0 +1,108 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Von Neumann–Morgenstern fayda teoremi</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>Von Neumann–Morgenstern fayda teoremi</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p>Seçeneklerin tekil alternatifler değil, alternatiflerin üzerinde tanımlı lotarya, rastgele olaylar olduğu durumda, farklı alternatiflerin tanımlı faydalarının beklenen değerlerini almanın bu rastgele piyangoların kıyası için yeterli olacağını söyleyen teorem.</p>
+
+<p>Lotarya yerine kura kelimesi mi kullanılmalı?</p>
+
+<p>Varsayımları şunlar:</p>
+
+<ul>
+<li>Bütünlük, Tamlık (Completeness)<br />
+<ul><br />
+<li>$L\prec M , M\prec L$ veya $L \sim M$ </li><br />
+</ul></li>
+<li>Geçişlilik (Transitivity)<br />
+<ul><br />
+<li>$L\prec M$ ve $M\prec N$ ise $L\prec N$</li><br />
+</ul></li>
+<li>Süreklilik (Continuity)<br />
+<ul><br />
+<li>$L\preceq M\preceq N$ ise $pL+(1-p)N\sim M$ olacak şekilde bir $p\in [0,1]$ vardır.</li><br />
+</ul></li>
+<li>Bağımsızlık (Independence)<br />
+<ul><br />
+<li>Bütün $N$ ve  $p\in (0,1]$ için, $L\preceq M$ ancak ve ancak $pL+(1-p)N\preceq pM+(1-p)N$<span id="8100ed"></span></li><br />
+</ul></li>
+</ul>
+
+<p>İspatı kısaca şöyle işliyor. </p>
+
+<ul>
+<li>Tamlıktan ve geçişlilikten ötürü bir en iyi ve bir en kötü lotarya seçebiliyoruz. İlkine 1, ikinciye 0 fayda belirleyelim. </li>
+<li>Süreklilikten ötürü diğer bütün lotaryaların dengini bu en iyi ve en kötü lotarya arasındaki bir kompleks lotaryayla ifade edebilmiş oluyoruz. </li>
+<li>$p$ ihtimalle en iyi lotaryanın, $1-p$ ihtimalle en kötü lotaryanın seçildiği bir lotarya, hangi lotaryaya eşitse, o lotaryaya, $p$ değerini fayda olarak verebiliriz. </li>
+<li>Burada bağımsızlık, sadece bu fayda hesaplamasının sadece basit değil, kompleks lotaryalarda da çalışacağını ifade ediyor.</li>
+</ul>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="ehven-i-şer-formülasyonu.html">Ehven-i Şer Formülasyonu</a></li>
+<li><a href="how-to-compare-dictators.html">How to compare dictators</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

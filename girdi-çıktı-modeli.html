@@ -1,0 +1,148 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>Girdi Çıktı Modeli</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>Girdi Çıktı Modeli</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><p><a href="girdi-çıktı-modelinin-varsayımları.html">Girdi çıktı modelinin varsayımları</a><br />
+Bu alandaki en geniş veritabanı: <a href="wiod-veritabanı.html">WIOD veritabanı</a></p>
+
+<p>Devletin beş yılda bir yayınladığı girdi çıktı verilerine dayanarak analiz yapabilmeye yarıyor.</p>
+
+<p>Şöyle işliyor: Devlet bütün sektörlerin üretimini ve diğer sektörlerden ne kadar girdi aldıklarını açıklıyor. Bu matrise $X$ diyelim.</p>
+
+<p>Sonra $i$ satırındaki her hücreyi satırın sonundaki _çıktı_ miktarına bölüyoruz. Bu bize yeni bir matris veriyor. Buna da $A$ diyelim.</p>
+
+<p>$A$ matrisi bize kısaca her sektörün üretimini bir birim artırmak için, diğer sektörlerden almaları gereken girdi miktarını veriyor. Bu yanıyla graph theory'deki <a href="adjacency-matrix.html">adjacency matrix</a>'e benziyor. $A$ matrisi aynı zamanda bize, herhangi bir sektörün üretiminin o sektörün girdilerinin bir <a href="lineer-kombinasyon.html">lineer kombinasyon</a>u olduğunu varsaydığımızı aktarıyor.</p>
+
+<p>$x_{ij}$: $i$ endüstrisi tarafından talep edilen $j$ malı miktarı.</p>
+
+<ul>
+<li>İleri bağlantı etkisi: bütün sektörlerdeki bir birimlik talep artışının belli bir sektörün üretiminde yol açtığı artış.<br />
+<ul><br />
+<li>Satırın toplamı. Yani, <em>farklı sütunlardaki aynı satırın</em> toplamı.</li><br />
+</ul></li>
+<li>Geri bağlantı etkisi: x ürününün talebi 1 birim arttığında piyasada gereken toplam üretim artışı.<br />
+<ul><br />
+<li>Sütunun toplamı. Yani, <em>farklı satırlardaki aynı sütunun</em> toplamı.</li><br />
+</ul></li>
+</ul>
+
+<p><strong>Doğrudan etkiler</strong>, A matrisinin satır yahut sütun toplamlarıyla bulunuyor.<br />
+<strong>Toplam etkiler</strong> için Leontief matrisine ihtiyacımız var, o da şöyle bulunuyor:</p>
+
+<p>$X=AX+Y_0$ alıyoruz. Burada $X$ üretim, $A$ teknoloji matrisi.<br />
+$X-AX=Y_0$<br />
+$X=(I-A)^{-1}Y_0$. Burada $(I-A)^{-1}$ matrisine Leontief matrisi deniyor.<span id="008b2b"></span></p>
+
+<p><a href="girdi-çıktı-analizi-python-kodu.html">Girdi Çıktı Analizi Python Kodu</a></p>
+
+<h4 id="makale-fikri">Makale fikri:</h4>
+
+<p>Bütün bu iş <a href="centrality-girdi-çıktı-i̇lişkisi.html">Centrality Girdi Çıktı İlişkisi</a> fikrine yaslanıyor.<br />
+Alakalı başlıklar:</p>
+
+<ul>
+<li><a href="igraph.html">igraph</a></li>
+<li><a href="sektörlerin-merkeziliği-ve-kilitliği-arasındaki-ilişki.html">Sektörlerin merkeziliği ve kilitliği arasındaki ilişki</a></li>
+</ul>
+
+<h4 id="modelin-henuz-bilmedigim-ksmlar">Modelin henüz bilmediğim kısımları:</h4>
+
+<ul>
+<li>İthalat nasıl dahil ediliyor?</li>
+<li>Zaman nasıl dahil ediliyor?</li>
+</ul>
+
+<h3 id="alakal-linkler">Alakalı linkler</h3>
+
+<ul>
+<li><a href="centrality-part2.html">centrality-part2</a></li>
+<li><a href="dünya-için-girdi-çıktı-tablosu-analizi.html">Dünya için Girdi Çıktı Tablosu Analizi</a></li>
+<li><a href="eigenvector-ile-leontief-birbirine-ne-kadar-benziyor.html">Eigenvector ile Leontief birbirine ne kadar benziyor</a></li>
+<li><a href="girdi-çıktı-analizi-python-kodu.html">Girdi Çıktı Analizi Python Kodu</a></li>
+<li><a href="girdi-çıktı-modeli-hakkında-sorular.html">Girdi çıktı modeli hakkında sorular</a></li>
+<li><a href="wiod-veritabanı.html">WIOD veritabanı</a></li>
+<li><a href="girdi-çıktı-modeli-abdullah-hoca.html">Girdi Çıktı Modeli Abdullah Hoca</a></li>
+</ul>
+
+<h3 id="okunacaklar">Okunacaklar</h3>
+
+<ul>
+<li><a href="liu2020dynamical.html">@liu2020dynamical</a></li>
+<li><a href="türkiye-ekonomisinde-sürükleyici-endüstri-analizi.html">Türkiye Ekonomisinde Sürükleyici Endüstri Analizi</a></li>
+</ul>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="000_giriş.html">000_Giriş</a></li>
+<li><a href="centrality-girdi-çıktı-i̇lişkisi.html">Centrality Girdi Çıktı İlişkisi</a></li>
+<li><a href="dünya-için-girdi-çıktı-tablosu-analizi.html">Dünya için Girdi Çıktı Tablosu Analizi</a></li>
+<li><a href="eigenvector-ile-leontief-birbirine-ne-kadar-benziyor.html">Eigenvector ile Leontief birbirine ne kadar benziyor</a></li>
+<li><a href="information-centrality.html">Information Centrality</a></li>
+<li><a href="sektörlerin-merkeziliği-ve-kilitliği-arasındaki-ilişki.html">Sektörlerin merkeziliği ve kilitliği arasındaki ilişki</a></li>
+<li><a href="stress-centrality.html">Stress Centrality</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>

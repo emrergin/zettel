@@ -1,0 +1,116 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <link rel="stylesheet" href="style.css">
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <title>@Vallejos2017</title>
+	<style>
+  <!-- <link rel="stylesheet" href="style.css"/> -->
+
+	</style>
+
+  <script src="script.js"></script>
+  <script></script>
+</head>
+
+<body>
+
+	
+<div id="main">
+        <div id="header"><h1><strong>@Vallejos2017</strong></h1></div>
+		<hr>
+        <div id="content"><div id="content"><hr />
+
+<p>title: An agent-based model of the observed distribution of wealth in the United States<br />
+authors: Hunter A. Vallejos, James J. Nutaro, Kalyan S. Perumalla</p>
+
+<h2 id="year-2017">year: 2017</h2>
+
+<p>Amerika'da GINI ve GDP artışı başabaş gidiyor, bizde öyle değil. Bu yüzden eşitsizlik hakkındaki modellerini büyümeyle irtibatlandırmışlar.</p>
+
+<p>Ben en azından tek kişili olan kısmını Python koduyla replike edebildim, ancak çoklu kişi devreye girdiği kısmı henüz yapmadım. Bir diğer kısım da gerçekteki dağılımın şartlarına sahip bir başlangıç koşulu oluşturmak. Ben şu an normal dağılımla ilerliyorum, daha ziyade.</p>
+
+<ul>
+<li>Ülkenin toplam büyümesi, klasik manada anlaşılıyor. Burada $\lambda$ değişkeni ülkelerin GDP (GSYH) artış oranı. Mesela Amerika için yüzde 2,5 herhalde bizim için yüzde 5 kullanmak gerekir.<br />
+$$\varOmega (t) = \varOmega (0) e^{\lambda t}$$</li>
+<li>Büyüme sürekli bir akış halinde değil, kişilere verilen büyüme "paketleri" şeklinde gerçekleşiyor bu paketlerin her birinin büyüklüğü:<br />
+$$n = \frac{\varOmega (0)(e^{\lambda T} - 1)}{\delta \omega }$$<br />
+Burada paydanın gerçek hayatta bir karşılığı yok, büyüme paketlerinin büyüklüğünü değiştiren bir parametre.</li>
+<li>Kişilerin bu paketleri almaları zenginliklerine bağlı. Toplam kazanma gücüne kıyasla ne kadar gücü haizler ona bakılıyor.<br />
+$$\varPsi (i,k+1) = \frac{p(\omega_{i,k})}{\sum_i{p(\omega_{i,k})}}$$</li>
+<li>Son olarak bu güçlerin nasıl dağıldığı bahsi. Herkesin zenginleşme ihtimalleri, önceki zenginlikleriyle ilintili.<br />
+$$p(\omega_{i,k}) = \left( {\omega_{i,k}}\right)^\beta$$<br />
+Burada betanın hayati bir önemi var. Eğer birden büyük seçilirse zenginlerin büyümeyle daha da zenginleştikleri, durduğu yerden GINI artışı türeten bir ekonomiden bahsediyoruz. Amerika için bu mantıklı. Eğer bir belirlersek eşitsizlikle büyümenin bir alakasının olmadığını varsayıyoruz. Birden küçük değerlerde ise fakirlerin bu büyüme paketlerini alma ihtimalleri daha fazla.</li>
+</ul>
+
+<p>Ben buraya kadar kodlaştırdım, şöyle:</p>
+
+<pre><code class="py lang-py language-py">def Buyume1(array,bbeta,Aartis,llamda):
+    GDPartismiktari=sum(array)*(math.exp(llamda)-1)
+    GeriyeKalanGDP=GDPartismiktari
+    while GeriyeKalanGDP>0:
+        KazancIhtimali=np.power(array,bbeta)
+        KazancIhtimali=np.transpose(KazancIhtimali/sum(KazancIhtimali))
+        kazanan = np.random.choice(np.array(list(range(1,len(array)+1))).flatten(), 1, p=KazancIhtimali.flatten())
+        array[kazanan-1]=array[kazanan-1]+min(Aartis,GeriyeKalanGDP)
+        GeriyeKalanGDP=GeriyeKalanGDP-min(Aartis,GeriyeKalanGDP)
+    return(array)</code></pre>
+
+<p>^251fbf</p>
+
+<p>Burada array dağılımı, <em>bbeta</em> betayı, <em>Aartis</em> omega çarpı deltayı <em>llamda</em> ise lambdayı temsil ediyor.</p>
+
+<p>Burada büyüme paketlerinin belirli bir oranının fakirlere dağıtılacak paketlere dönüştürülmesi bahsi de var ve konu zaten orada <a href="gini-ve-zekât.html">GINI ve zekât</a> işine bağlanıyor. </p>
+</div></div>
+		<hr>
+		Geriye linkler:
+		<div id="content"><div class="backlinks">
+
+<ul>
+<li><a href="gini-ve-zekât.html">GINI ve zekât</a></li>
+</ul>
+
+</div>
+</div>
+    </div>
+<!-- KaTeX -->
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.css"
+  integrity="sha384-zB1R0rpPzHqg7Kpt0Aljp8JPLqbXI3bhnPWROx27a9N0Ll6ZP/+DiW/UqRcLbRjq" crossorigin="anonymous">
+
+<!-- The loading of KaTeX is deferred to speed up page rendering -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/katex.min.js"
+  integrity="sha384-y23I5Q6l+B6vatafAwxRu/0oK/79VlbSz7Q9aiSZUvyWYIYsd+qj+o24G5ZU2zJz"
+  crossorigin="anonymous"></script>
+
+<!-- To automatically render math in text elements, include the auto-render extension: -->
+<script defer src="https://cdn.jsdelivr.net/npm/katex@0.11.1/dist/contrib/auto-render.min.js"
+  integrity="sha384-kWPLUVMOks5AQFrykwIup5lo0m3iMkkHrD0uJ4H5cjeGihAutqP0yW0J6dpFiVkI"
+  crossorigin="anonymous"></script>
+
+<!-- Parsing single dollar signs -->
+<script>
+  document.addEventListener("DOMContentLoaded", function () {
+      renderMathInElement(document.body, {
+        delimiters: [
+          {left: "$$", right: "$$", display: true},
+        {left: "\\[", right: "\\]", display: true},
+    {left: "$", right: "$", display: false},
+    {left: "\\(", right: "\\)", display: false}
+      ]
+  });
+  });
+</script>  
+
+
+
+<!-- Syntax highlighting through highlight.js -->
+<link rel="stylesheet" href="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/styles/default.min.css">
+<script src="https://unpkg.com/@highlightjs/cdn-assets@10.4.0/highlight.min.js"></script>
+
+<script>
+  // Ignore highlighting of mermaid
+  hljs.configure({noHighlightRe: /^mermaid$/});
+  hljs.initHighlightingOnLoad();
+</script>
+</body>
+</html>
