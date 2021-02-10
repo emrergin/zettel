@@ -49,14 +49,14 @@ body{
 
 a:link {
   /* color: #ec0d0d; */
-  color: #ec0d0d;
+  color: #df4a16;
   background-color: transparent;
   text-decoration: underline;
 }
 
 a:visited {
   /* color: darkorange; */
-  color: #ec0d0d;
+  color: #df4a16;
   background-color: transparent;
   text-decoration: underline;
 }
