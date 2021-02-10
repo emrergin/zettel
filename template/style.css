@@ -71,6 +71,82 @@ a:active {
   text-decoration: underline;
 }  
 
+
+
+
+/*=== trace indentation lines === */
+
+.cm-hmd-list-indent .cm-tab,
+ul ul {
+  position: relative;
+}
+
+/*=============== lists bullets ================*/
+
+/* li:not(:last-child) { */
+    /* margin-bottom: -6px; */
+/* } */
+
+/* ul, ol, li { */
+    /* padding: 0; */
+    /* margin: 3; */
+    /* line-height: 15px; */
+/* } */
+ul {
+    /* padding: 2; */
+    margin: 5px;
+    line-height: 18px;
+}
+
+
+
+
+ul ul{
+	/* padding: 1; */
+	line-height: 10px;
+	margin: -3px;
+}
+
+ul ul ul{
+	/* padding: 0; */
+	line-height: 5px;
+	margin: -3px;
+}
+
+li:not(:last-child) {
+    margin: 3px;
+}
+
+/* ul { */
+  /* list-style-type: disc; */
+/* } */
+/* ul ul { */
+  /* list-style-type: disc; */
+/* } */
+/* ul ul ul { */
+  /* list-style-type: circle; */
+/* } */
+
+/* .cm-hmd-list-indent .cm-tab::before, */
+/* ul ul::before { */
+  /* content: ""; */
+  /* border-left: 1px solid var(--lines-identation); */
+
+  /* position: absolute; */
+/* } */
+
+/* .cm-hmd-list-indent .cm-tab::before { */
+  /* left: 0; */
+  /* top: -5px; */
+  /* bottom: -4px; */
+/* } */
+
+/* ul ul::before { */
+  /* left: -15px; */
+  /* top: 0; */
+  /* bottom: 0; */
+/* } */
+
 /* Resimlerin arkasi beyaz olsun*/
 .workspace-leaf-content img, .workspace-leaf-content audio, .workspace-leaf-content video{
 background-color:#ffffff;
@@ -226,32 +302,7 @@ input[type="checkbox"]:checked {
   font-weight: bold;
 }
 
-/*=== trace indentation lines === */
 
-.cm-hmd-list-indent .cm-tab,
-ul ul {
-  position: relative;
-}
-
-.cm-hmd-list-indent .cm-tab::before,
-ul ul::before {
-  content: "";
-  border-left: 1px solid var(--lines-identation);
-
-  position: absolute;
-}
-
-.cm-hmd-list-indent .cm-tab::before {
-  left: 0;
-  top: -5px;
-  bottom: -4px;
-}
-
-ul ul::before {
-  left: -15px;
-  top: 0;
-  bottom: 0;
-}
 
 /* ===TRANSCLUSION TWEAKS=== */
 
@@ -591,16 +642,7 @@ sub {
   vertical-align: -0.3em;
 }
 
-/*=============== lists bullets ================*/
-ul {
-  list-style-type: disc;
-}
-ul ul {
-  list-style-type: disc;
-}
-ul ul ul {
-  list-style-type: circle;
-}
+
 
 /* ==== Table Styles ==== */
 .markdown-preview-view table,
@@ -629,19 +671,6 @@ tbody {
 /*=============== add mods below ================*/
 /*=============== add mods below ================*/
 
-/*----file explorer column view : slightly buggy ----*/
-.nav-folder-children {
-  column-width: 200px;
-  column-rule: 1px solid var(--background-modifier-border);
-}
-
-/* Wrap long nav text and some paddings */
-.nav-file-title,
-.nav-folder-title {
-  white-space: normal;
-  width: auto;
-  line-height: 1.1;
-}
 
 /* Indent wrapped nav text */
 /* .nav-file-title-content {
