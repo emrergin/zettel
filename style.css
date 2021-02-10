@@ -92,30 +92,37 @@ ul ul {
     /* margin: 3; */
     /* line-height: 15px; */
 /* } */
-ul {
+ul{
     /* padding: 2; */
-    margin: 5px;
+    margin: 1px;
+    /* line-height: 18px; */
+}
+
+li {
+    /* padding: 2; */
+    margin: 1px;
     line-height: 18px;
 }
 
 
 
 
+
 ul ul{
 	/* padding: 1; */
-	line-height: 10px;
-	margin: -3px;
+	/* line-height: 10px; */
+	margin: -1px;
 }
 
 ul ul ul{
 	/* padding: 0; */
-	line-height: 5px;
-	margin: -3px;
+	/* line-height: 8px; */
+	/* margin: -1px; */
 }
 
-li:not(:last-child) {
-    margin: 3px;
-}
+/* li:not(:last-child) { */
+    /* margin: 4px; */
+/* } */
 
 /* ul { */
   /* list-style-type: disc; */
