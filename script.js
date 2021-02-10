@@ -5,8 +5,6 @@ window.addEventListener('load', (event) => {
       for(var i = var1.length; i--;) {
           var1[i].parentNode.removeChild(var1[i]);
       }
-		// $('p').each(function(){
-			// $(this).html( $(this).html().replace(/((http|https|ftp):\/\/[\w?=&.\/-;#~%-]+(?![\w\s?&.\/;#~%"=-]*>))/g, '<a href="$1">$1</a> ') );
-		// });
+		parent.innerHTML = parent.innerHTML.replace(/((http|https|ftp):\/\/[\w?=&./-;#~%-]+(?![\w\s?&./;#~%"=-]*>))/g, '<a href="$1">$1</a> ');
     });
 	
