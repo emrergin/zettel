@@ -4,7 +4,7 @@
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>Programlama</title>
+  <title>Bu websitesi nasıl yazıldı</title>
 	<style>
   <!-- <link rel="stylesheet" href="style.css"/> -->
 	</style>
@@ -16,22 +16,42 @@
 
 	
 <div id="main">
-        <div id="header"><h1><strong>Programlama</strong></h1></div>
+        <div id="header"><h1><strong>Bu websitesi nasıl yazıldı</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><ul>
-<li><a href="r-hakkında.html">R hakkında</a></li>
-<li><a href="igraph_r.html">igraph_r</a></li>
-<li><a href="igraph_python.html">igraph_python</a></li>
-<li><a href="bu-websitesi-nasıl-yazıldı.html">Bu websitesi nasıl yazıldı</a></li>
-</ul>
+        <div id="content"><div id="content"><p>Bu aslında bir websitesi değil. Kendim için obsidian.md üzerinden yazdığım markdown notları.</p>
 
-<p>Buraya belki zamanla yaptığım ilginçlikleri de koyarım. Öğrencilerin sınavlarını okumak için yazdığım R kodundan bahsetmiş miydim?</p>
+<p>Şu an içerisinde HTML, CSS, Python ve Javascript bulunan bir projeye dönüştü.</p>
+
+<p>Şunlardan faydalandım:</p>
+
+<ol>
+<li>Obsidian notlarını HTML'ye dönüştürmek için: https://github.com/kmaasrud/oboe</li>
+<li>Notlarımın içine yüklendiği bir <em>github repository</em>.</li>
+<li>Dosyaların istediğim renkte vesaire olması için bir CSS.</li>
+<li>Gereksiz satırları silmek ve linkleri otomatik olarak hyperlinke çevirmek için bir js scripti.</li>
+</ol>
+
+<p>Git kullanımını biraz öğrendim. Şu an yazdığım bat dosyası, özetle şu şekilde:</p>
+
+<pre><code class="bat lang-bat language-bat">CHCP 65001
+E:
+cd zettelhtml
+oboe "{notlarimin klasoru}" -t "{templateinadresi}" -o "{ciktiklasoru}" -e
+git add .
+git commit -a
+git push
+PAUSE</code></pre>
+
+<p>İlk satırdaki komuta, klasörlerimden birinde "ü" harfi geçtiği için ihtiyaç duydum.</p>
+
+<p>Herkesle paylaşılmaması gereken dosyaları silmeyi yahut .gitignore'a eklemeyi unutmayın.</p>
 </div></div>
 		<hr>
 		Geriye linkler:
 		<div id="content"><div class="backlinks">
 
 <ul>
+<li><a href="programlama.html">Programlama</a></li>
 <li><a href="index.html">index</a></li>
 </ul>
 

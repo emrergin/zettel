@@ -143,10 +143,10 @@ ul ul ul{
 	margin: -1px;
 }
 
-li:not(:last-child) {
-    margin: 2px;
-	line-height: normal;
-}
+/* li:not(:last-child) { */
+    /* margin: 2px; */
+	/* line-height: normal; */
+/* } */
 
 
 
