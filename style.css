@@ -76,12 +76,7 @@ a:active {
 
 
 
-/*=== trace indentation lines === */
 
-/* .cm-hmd-list-indent .cm-tab, */
-/* ul ul { */
-  /* position: relative; */
-/* } */
 
 /*=============== lists bullets ================*/
 
@@ -1093,4 +1088,29 @@ em{
 
 .markdown-preview-view ul > li.task-list-item.is-checked{
 	color: var(--text-faint) !important;
+}
+
+/* INTERNETTEN ALDIM*/
+
+blockquote {
+  padding: 1.5em;
+  margin: 0;
+  font-size: 0.88em;
+  border-radius: $border-radius;
+
+  p {
+    margin: 0;
+  }
+}
+
+body {
+  box-sizing: content-box;
+  font-family: $font-family;
+  margin: 0 auto;
+  line-height: 1.7;
+  padding: 4vh 6vw;
+  overflow-x: hidden;
+  font-size: 1rem;
+  max-width: 63em;
+
 }
