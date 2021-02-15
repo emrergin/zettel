@@ -1092,25 +1092,25 @@ em{
 
 /* INTERNETTEN ALDIM*/
 
-blockquote {
-  padding: 1.5em;
-  margin: 0;
-  font-size: 0.88em;
-  border-radius: $border-radius;
+/* blockquote { */
+  /* padding: 1.5em; */
+  /* margin: 0; */
+  /* font-size: 0.88em; */
+  /* border-radius: $border-radius; */
 
-  p {
-    margin: 0;
-  }
-}
+  /* p { */
+    /* margin: 0; */
+  /* } */
+/* } */
 
-body {
-  box-sizing: content-box;
-  font-family: $font-family;
-  margin: 0 auto;
-  line-height: 1.7;
-  padding: 4vh 6vw;
-  overflow-x: hidden;
-  font-size: 1rem;
-  max-width: 63em;
+/* body { */
+  /* box-sizing: content-box; */
+  /* font-family: $font-family; */
+  /* margin: 0 auto; */
+  /* line-height: 1.7; */
+  /* padding: 4vh 6vw; */
+  /* overflow-x: hidden; */
+  /* font-size: 1rem; */
+  /* max-width: 63em; */
 
-}
+/* } */
