@@ -138,7 +138,7 @@ ul ul ul{
 	margin: -1px;
 }
 
-ul > li > ul { 
+ul li ul{ 
 	margin-top: 2px;
 }
 
