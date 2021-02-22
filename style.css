@@ -144,7 +144,9 @@ ul li ul{
 	margin-top: 0px;
 }
 
-mark { background-color: #df4a16; }
+.highlight{ 
+background-color: #df4a16; 
+}
 
 /* li:not(:last-child) { */
     /* margin: 2px; */
