@@ -156,7 +156,7 @@ tbody{
 	background-color: var(--background-secondary-alt);
 }
 table td{
-border:1px solid var(--text-faint);
+border:1px solid #b0b0b1;
 }
 tr:nth-child(even) {background-color: rgba(255, 255, 255, 0.03);}
 /* li:not(:last-child) { */
@@ -534,22 +534,7 @@ sub {
 
 
 
-/* ==== Table Styles ==== */
-.markdown-preview-view table,
-.markdown-preview-view th,
-.markdown-preview-view td {
-  border: 1px solid var(--text-faint);
-}
 
-.markdown-preview-view th {
-  background-color: var(--background-secondary-alt);
-}
-.theme-dark .markdown-preview-view tr:nth-child(even) {
-  background-color: rgba(255, 255, 255, 0.03);
-}
-.theme-light .markdown-preview-view tr:nth-child(even) {
-  background-color: rgba(0, 0, 0, 0.05);
-}
 
 /*=============== tables align ================*/
 tbody {
