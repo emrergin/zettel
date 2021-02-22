@@ -148,6 +148,17 @@ ul li ul{
 background-color: #df4a16; 
 }
 
+tbody{
+	display: table-row-group;
+	vertical-align: top;
+	/* border-color: inherit; */
+	/* border: 1px solid var(--text-faint); */
+	/* background-color: var(--background-secondary-alt); */
+}
+table td{
+border:1px solid #FF0000;
+}
+tr:nth-child(even) {background-color: rgba(255, 255, 255, 0.03);}
 /* li:not(:last-child) { */
     /* margin: 2px; */
 	/* line-height: normal; */
