@@ -4,7 +4,7 @@
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>İnsan Yetiştirme</title>
+  <title>Clustering coefficient</title>
 	<style>
   <!-- <link rel="stylesheet" href="style.css"/> -->
 	</style>
@@ -16,46 +16,29 @@
 
 	
 <div id="main">
-        <div id="header"><h1><strong>İnsan Yetiştirme</strong></h1></div>
+        <div id="header"><h1><strong>Clustering coefficient</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><ul>
-<li><a href="öğretmenler-gerçek-performansı-anlamada-yetkin-değildirler.html">Öğretmenler gerçek performansı anlamada yetkin değildirler</a></li>
-<li><a href="öğrencilere-mektup.html">Öğrencilere Mektup</a></li>
-<li><a href="sözde-disiplin.html">(Sözde) Disiplin</a></li>
-<li><a href="küçüklerin-yanında-bir-büyük-gibi-konuşmadan-bir-şeyler-nasıl-anlatılır.html">küçüklerin yanında bir büyük gibi konuşmadan bir şeyler nasıl anlatılır</a></li>
-<li><a href="hakikate-giden-yol.html">Hakikate giden yol</a></li>
-<li><a href="easy-peasy.html">Easy Peasy</a></li>
-</ul>
+        <div id="content"><div id="content"><p>İki tipi var.</p>
 
-<h3 id="okuma-listesi">Okuma Listesi</h3>
+<h3 id="lokal">Lokal</h3>
 
-<ul>
-<li>Cahil Hoca</li>
-<li>Ezilenlerin Pedagojisi</li>
-<li><a href="specializing-in-problems-we-dont-understand.html">Specializing in Problems We Don't Understand</a></li>
-</ul>
+<p>Herhangi bir <a href="vertex.html">vertex</a>i alıyoruz. Bu vertex'in birinci dereceden komşularına bakıyoruz. Bu komşuların ikili ikili her birini aldığımızda, hangi oranda birbirine bağlı olduğuna, lokal kümelenme katsayısı deniyor.</p>
 
-<h3 id="linkler">Linkler</h3>
+<h3 id="global">Global</h3>
 
-<h4 id="motivasyon">Motivasyon</h4>
+<p>Az önceki mantığı bütün olası üçgenler için yapınca da elimizde global kümelenme katsayısını buluyoruz. Tamamen üçgenlerden hareket ettiği için bunun çeşitlerinden birine <a href="geçişlilik-transitivity.html">geçişlilik (transitivity)</a> de deniyormuş. </p>
 
-<ul>
-<li>https://www.ted.com/talks/carol_dweck_the_power_of_believing_that_you_can_improve</li>
-<li>https://www.ted.com/talks/angela_lee_duckworth_grit_the_power_of_passion_and_perseverance</li>
-<li>https://www.khanacademy.org/college-careers-more/talks-and-interviews/talks-and-interviews-unit/conversations-with-sal/a/the-learning-myth-why-ill-never-tell-my-son-hes-smart</li>
-<li>https://devchat.tv/ruby-rogues/131-rr-how-to-learn/</li>
-<li>https://www.coursera.org/learn/learning-how-to-learn</li>
-<li>https://markmanson.net/how-to-get-motivated</li>
-</ul>
+<h3 id="ortalama">Ortalama</h3>
 
-<p><span class="tag">moc</span></p>
+<p>Lokaldeki hesaplamayı her vertex için tek tek yapıp, ortalamayı alıyoruz.</p>
 </div></div>
 		<hr>
 		Bundan bahsedenler:
 		<div id="content"><div class="backlinks">
 
 <ul>
-<li><a href="index.html">index</a></li>
+<li><a href="ağ-teorisi.html">Ağ Teorisi</a></li>
+<li><a href="cinna-sonuçları.html">CINNA sonuçları</a></li>
 </ul>
 
 </div>
