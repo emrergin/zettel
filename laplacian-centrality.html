@@ -4,7 +4,7 @@
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>eigenvalue</title>
+  <title>Laplacian Centrality</title>
 	<style>
   <!-- <link rel="stylesheet" href="style.css"/> -->
 	</style>
@@ -16,50 +16,22 @@
 
 	
 <div id="main">
-        <div id="header"><h1><strong>eigenvalue</strong></h1></div>
+        <div id="header"><h1><strong>Laplacian Centrality</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><p>Bir reel sayı $λ$ $A$ nın eigenvalue sudur denmesi için 0dan farklı bir $X$ vektörünün<br />
-$$\mathbf{Ax} = {\lambda}\mathbf{x}$$ eşitliğini sağlaması gerekiyor. Böyle bir vektöre de $A$'nın $\lambda$ ya tekabül eden eigenvectorü deniyor.</p>
+        <div id="content"><div id="content"><p><code>\citep{qi2012laplacian}</code>: </p>
 
-<p>Örnek:</p>
-
-<p>$\begin{bmatrix}<br />
- 3 &amp; 2 \<br />
- 3 &amp; -2<br />
-\end{bmatrix}\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}=4\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}$</p>
-
-<p>Vektörümüzle lambdayı çarpmak ya da $A$yı çarpmak aynı şey olmuş oluyor.</p>
-
-<p><mark class="highlight">Her matrisin eigenvaluesu yoktur</mark>)<br />
-Eigenvectorler ikiden fazla da olabilir. (Sonsuz)</p>
-
-<p>$A$ matrisi simetrikse, eigenvectorleri lineer olarak bagimsizdir ve $R^n$'i span ederler. Yani $R^n$deki herhangi bir vektor eigenvectorlerin bilesimi olarak yazilabilir.</p>
-
-<p>$A$ Matrisini bir linear transformasyon olarak düşündüğümüzde, eigenvectorler transformasyondan sonra kendi doğrultusunda kalabilen vektörlere deniyor. eigenvaluelar ise bu doğrultunun üzerindeki hareketin "factor"ü, yani ölçüsü. </p>
-
-<p>Eigenvectorler, lineer transformasyonun ekseni gibi işlev görüyor.</p>
-
-<p>en büyük eigenvalue'ye tekabül eden eigenvector'e principal eigenvector deniyor.</p>
-
-<p>https://www.youtube.com/watch?v=PFDu9oVAE-g</p>
-
-<p>ayrıca bkz. <a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></p>
+<ul>
+<li>Decrease of the Laplacian energy of the graph when any specific node is removed.</li>
+<li>Laplacian energy:  (i.e. sum of squares of the eigenvalues in the <a href="laplacian-matrix.html">Laplacian matrix</a>)</li>
+</ul>
 </div></div>
 		<hr>
 		Bundan bahsedenler:
 		<div id="content"><div class="backlinks">
 
 <ul>
-<li><a href="diffusion.html">Diffusion</a></li>
-<li><a href="eigenvector-centrality.html">Eigenvector centrality</a></li>
-<li><a href="kleinbergs-centrality.html">Kleinberg's Centrality</a></li>
-<li><a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></li>
+<li><a href="cinna-sonuçları.html">CINNA sonuçları</a></li>
+<li><a href="centrality-part3.html">centrality-part3</a></li>
 </ul>
 
 </div>

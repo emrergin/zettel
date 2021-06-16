@@ -4,7 +4,7 @@
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>eigenvalue</title>
+  <title>Diffusion</title>
 	<style>
   <!-- <link rel="stylesheet" href="style.css"/> -->
 	</style>
@@ -16,50 +16,41 @@
 
 	
 <div id="main">
-        <div id="header"><h1><strong>eigenvalue</strong></h1></div>
+        <div id="header"><h1><strong>Diffusion</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><p>Bir reel sayı $λ$ $A$ nın eigenvalue sudur denmesi için 0dan farklı bir $X$ vektörünün<br />
-$$\mathbf{Ax} = {\lambda}\mathbf{x}$$ eşitliğini sağlaması gerekiyor. Böyle bir vektöre de $A$'nın $\lambda$ ya tekabül eden eigenvectorü deniyor.</p>
+        <div id="content"><div id="content"><h3 id="diffusion-degree">Diffusion Degree</h3>
 
-<p>Örnek:</p>
+<p><code>\citet{pal2014centrality}</code></p>
 
-<p>$\begin{bmatrix}<br />
- 3 &amp; 2 \<br />
- 3 &amp; -2<br />
-\end{bmatrix}\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}=4\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}$</p>
+<p>Degree of a node times some probability is added to degree of its neighbours times the same probability to find diffusion degree.</p>
 
-<p>Vektörümüzle lambdayı çarpmak ya da $A$yı çarpmak aynı şey olmuş oluyor.</p>
+<p>https://www.centiserver.org/centrality/Diffusion_Degree/</p>
 
-<p><mark class="highlight">Her matrisin eigenvaluesu yoktur</mark>)<br />
-Eigenvectorler ikiden fazla da olabilir. (Sonsuz)</p>
+<ul>
+<li>Bütün komşuluklar 0-1 olarak ifade edildikten sonra, belirli bir yayılma olasılığıyla çarpılıyor. Buna D1 diyelim.</li>
+<li>Aynısını bütün komşular için tek tek yapıp toplayalım. Buna da D2 diyelim.</li>
+<li>Diffusion degree bu ikisinin, toplamı oluyor. </li>
+</ul>
 
-<p>$A$ matrisi simetrikse, eigenvectorleri lineer olarak bagimsizdir ve $R^n$'i span ederler. Yani $R^n$deki herhangi bir vektor eigenvectorlerin bilesimi olarak yazilabilir.</p>
+<p>$$DD=D1+D2$$</p>
 
-<p>$A$ Matrisini bir linear transformasyon olarak düşündüğümüzde, eigenvectorler transformasyondan sonra kendi doğrultusunda kalabilen vektörlere deniyor. eigenvaluelar ise bu doğrultunun üzerindeki hareketin "factor"ü, yani ölçüsü. </p>
+<h3 id="diffusion-centrality">Diffusion Centrality</h3>
 
-<p>Eigenvectorler, lineer transformasyonun ekseni gibi işlev görüyor.</p>
-
-<p>en büyük eigenvalue'ye tekabül eden eigenvector'e principal eigenvector deniyor.</p>
-
-<p>https://www.youtube.com/watch?v=PFDu9oVAE-g</p>
-
-<p>ayrıca bkz. <a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></p>
+<p>Şurada detayı var: https://economics.mit.edu/files/7781<br />
+    - DC(p,T). $i$ bilgiliyse, her bilgili komşularına $p$ ihtimalle bilgi aktarıyorsa, bunu $T$ periyot tekrarlıyorsak...<br />
+    - <em>Diffusion Degree</em> ile alakalı, ama burada birden fazla periyod için oynatabiliyoruz.<br />
+    - T=1 iken <a href="degree.html">degree</a>ye, p küçük ve T büyük iken <a href="katz-centrality.html">Katz centrality</a>'e benziyor. p büyük ve T büyükken de <a href="eigenvector-centrality.html">eigenvector centrality</a>'e benziyor.<br />
+    - Kendileri $p$ için bir bölü largest <a href="eigenvalue.html">eigenvalue</a>yi kullanmışlar.<br />
+    - İletişimin sonsuza kadar değil, sınırlı sayıda periyotta gerçekleştiği düşünülünce kullanılıyor.</p>
 </div></div>
 		<hr>
 		Bundan bahsedenler:
 		<div id="content"><div class="backlinks">
 
 <ul>
-<li><a href="diffusion.html">Diffusion</a></li>
-<li><a href="eigenvector-centrality.html">Eigenvector centrality</a></li>
-<li><a href="kleinbergs-centrality.html">Kleinberg's Centrality</a></li>
-<li><a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></li>
+<li><a href="cinna-sonuçları.html">CINNA sonuçları</a></li>
+<li><a href="matthew-jackson-coursera-dersleri.html">Matthew Jackson Coursera Dersleri</a></li>
+<li><a href="centrality-part3.html">centrality-part3</a></li>
 </ul>
 
 </div>

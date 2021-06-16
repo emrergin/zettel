@@ -4,7 +4,7 @@
 <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
   <link rel="stylesheet" href="style.css">
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
-  <title>eigenvalue</title>
+  <title>Gelir Eşitsizliği Ölçüleri</title>
 	<style>
   <!-- <link rel="stylesheet" href="style.css"/> -->
 	</style>
@@ -16,50 +16,46 @@
 
 	
 <div id="main">
-        <div id="header"><h1><strong>eigenvalue</strong></h1></div>
+        <div id="header"><h1><strong>Gelir Eşitsizliği Ölçüleri</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><p>Bir reel sayı $λ$ $A$ nın eigenvalue sudur denmesi için 0dan farklı bir $X$ vektörünün<br />
-$$\mathbf{Ax} = {\lambda}\mathbf{x}$$ eşitliğini sağlaması gerekiyor. Böyle bir vektöre de $A$'nın $\lambda$ ya tekabül eden eigenvectorü deniyor.</p>
+        <div id="content"><div id="content"><ul>
+<li><a href="gini.html">GINI</a></li>
+<li>Herfhindal: Kareler toplamı.</li>
+<li>Atkinson endeksi: </li>
+</ul>
 
-<p>Örnek:</p>
+<p>$$A_\varepsilon(y_1,\ldots,y_N)=    \begin{cases}1-\frac{1}{\mu}\left(\frac{1}{N}\sum_{i=1}^{N}y_{i}^{1-\varepsilon}\right)^{1/(1-\varepsilon)}&amp; \mbox{for}\ 0 \leq \epsilon \neq 1 \<br />
+1-\frac{1}{\mu}\left(\prod_{i=1}^{N}y_{i}\right)^{1/N}&amp; \mbox{for}\ \varepsilon=1,<br />
+\end{cases}$$</p>
 
-<p>$\begin{bmatrix}<br />
- 3 &amp; 2 \<br />
- 3 &amp; -2<br />
-\end{bmatrix}\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}=4\begin{bmatrix}<br />
-2\<br />
-1<br />
-\end{bmatrix}$</p>
+<ul>
+<li>20: 20 oranı. En zengin yüzde 20'liğin en fakirin yüzde 20'liğin gelirinin kaç katına sahip olduğu.</li>
+<li>Palma ratio: 10-40. En zengin yüzde 10 ile en fakir yüzde 40'ı kıyaslıyor.<br />
+<ul><br />
+<li>Ülkenin ortalama yüzde 50'sinin her zaman gelirin yüzde 50'sine sahip olacağı düşüncesinden hareket etmiş.</li><br />
+</ul></li>
+<li>Hoover Endeksi: Tam dağılıma ulaşmak için gelirin ne kadarı yeniden dağıtılmalıydı?</li>
+<li>Galt skoru: Herhangi bir CEO'nun maaşı, o şirkette çalışan medyan işçinin kaç katıdır?</li>
+<li>Varyans katsayısı. Sonsuza kadar gidebiliyor, ama varyans işte. Standard sapmanın ortalamaya oranı.</li>
+<li>Ücret oranı. Çalışanların toplam maaşının <strong>gayrı safi yurtiçi hasıla</strong>ya oranı.</li>
+<li>Theil Endeksi: Verideki gereksiz veri miktarını ölçen entropi endeksi.</li>
+</ul>
 
-<p>Vektörümüzle lambdayı çarpmak ya da $A$yı çarpmak aynı şey olmuş oluyor.</p>
+<p>$${\displaystyle T_{T}=T_{\alpha =1}={\frac {1}{N}}\sum _{i=1}^{N}{\frac {x_{i}}{\mu }}\ln \left({\frac {x_{i}}{\mu }}\right)}$$ $${\displaystyle T_{L}=T_{\alpha =0}={\frac {1}{N}}\sum _{i=1}^{N}\ln \left({\frac {\mu }{x_{i}}}\right)}$$</p>
 
-<p><mark class="highlight">Her matrisin eigenvaluesu yoktur</mark>)<br />
-Eigenvectorler ikiden fazla da olabilir. (Sonsuz)</p>
-
-<p>$A$ matrisi simetrikse, eigenvectorleri lineer olarak bagimsizdir ve $R^n$'i span ederler. Yani $R^n$deki herhangi bir vektor eigenvectorlerin bilesimi olarak yazilabilir.</p>
-
-<p>$A$ Matrisini bir linear transformasyon olarak düşündüğümüzde, eigenvectorler transformasyondan sonra kendi doğrultusunda kalabilen vektörlere deniyor. eigenvaluelar ise bu doğrultunun üzerindeki hareketin "factor"ü, yani ölçüsü. </p>
-
-<p>Eigenvectorler, lineer transformasyonun ekseni gibi işlev görüyor.</p>
-
-<p>en büyük eigenvalue'ye tekabül eden eigenvector'e principal eigenvector deniyor.</p>
-
-<p>https://www.youtube.com/watch?v=PFDu9oVAE-g</p>
-
-<p>ayrıca bkz. <a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></p>
+<ul>
+<li>Kolm's Measure: <strong>???</strong></li>
+<li>Ricci- Schutz coefficient. Pietra coefficient <strong>???</strong></li>
+<li>Şu epeyini hesaplayabiliyor: https://search.r-project.org/CRAN/refmans/ineq/html/ineq.html</li>
+<li>Alakalı: https://wid.world/</li>
+</ul>
 </div></div>
 		<hr>
 		Bundan bahsedenler:
 		<div id="content"><div class="backlinks">
 
 <ul>
-<li><a href="diffusion.html">Diffusion</a></li>
-<li><a href="eigenvector-centrality.html">Eigenvector centrality</a></li>
-<li><a href="kleinbergs-centrality.html">Kleinberg's Centrality</a></li>
-<li><a href="eigenvalue-hesaplaması.html">eigenvalue hesaplaması</a></li>
+<li><a href="i̇ktisat.html">İktisat</a></li>
 </ul>
 
 </div>

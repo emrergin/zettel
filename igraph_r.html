@@ -18,15 +18,17 @@
 <div id="main">
         <div id="header"><h1><strong>igraph_r</strong></h1></div>
 		<hr>
-        <div id="content"><div id="content"><pre><code class="r lang-r language-r">grafik <-  graph_from_adjacency_matrix(data.matrix(yurtici2012),"directed",TRUE,TRUE,NULL)</code></pre>
-
-<p>koduyla grafiğe dönüştürüyorum. Veriseti zaten İsimli olduğundan grafik için ayrıca bir şey yapmama gerek yok.</p>
-
-<pre><code class="r lang-r language-r">e_centrality=eigen_centrality(grafik, directed = TRUE, scale = TRUE,
+        <div id="content"><div id="content"><p><pre><code class="\cite{igraph}<code>lang-\cite{igraph}</code> language-\cite{igraph}<code>"&gt;&lt;/code&gt;&lt;/pre&gt;r
+grafik &lt;-  graph_from_adjacency_matrix(data.matrix(yurtici2012),"directed",TRUE,TRUE,NULL)
+&lt;pre&gt;&lt;code class="plaintext lang-plaintext language-plaintext"&gt;
+koduyla grafiğe dönüştürüyorum. Veriseti zaten İsimli olduğundan grafik için ayrıca bir şey yapmama gerek yok.
+&lt;/code&gt;&lt;/pre&gt;r
+e_centrality=eigen_centrality(grafik, directed = TRUE, scale = TRUE,
                             weights = NULL, options = arpack_defaults)
 c_centrality=closeness(grafik, vids = V(grafik), mode =  "total", weights = max(E(grafik)$weight) - E(grafik)$weight, normalized = FALSE)
-b_centrality <- betweenness(grafik, v = V(grafik), directed = TRUE, weights = max(E(grafik)$weight) - E(grafik)$weight+0.0001,nobigint = TRUE, normalized = FALSE)
-d_centrality <- centr_degree(grafik, mode = "all",loops = TRUE, normalized = TRUE)</code></pre>
+b_centrality &lt;- betweenness(grafik, v = V(grafik), directed = TRUE, weights = max(E(grafik)$weight) - E(grafik)$weight+0.0001,nobigint = TRUE, normalized = FALSE)
+d_centrality &lt;- centr_degree(grafik, mode = "all",loops = TRUE, normalized = TRUE)
+</code></p>
 
 <p>Belli başlı 4 centrality'i hesaplattığım kod bu şekilde. Buradan sonra korelasyon kullanarak, Girdi Çıktı modeliyle alakasını kurabilirim, ama iki sorun var.</p>
 
@@ -45,25 +47,29 @@ d_centrality <- centr_degree(grafik, mode = "all",loops = TRUE, normalized = TRU
 <li>http://mr.schochastics.net/netAnaR.html</li>
 <li>https://rpubs.com/pjmurphy/313180</li>
 <li>https://www.datacamp.com/community/tutorials/centrality-network-analysis-R</li>
-<li>https://cran.r-project.org/web/packages/CINNA/vignettes/CINNA.html</li>
 <li>Görselleştirme:<br />
 <ul><br />
+<li>https://kateto.net/network-visualization</li><br />
 <li>http://mr.schochastics.net/netVizR.html</li><br />
 <li>http://users.dimi.uniud.it/~massimo.franceschet/ns/syllabus/make/ggraph/ggraph.html</li><br />
 <li>https://github.com/schochastics/graphlayouts</li><br />
 </ul></li>
+<li>https://www.jessesadler.com/post/network-analysis-with-r/</li>
+<li>https://programminghistorian.org/en/lessons/temporal-network-analysis-with-r</li>
 </ul>
 
 <h3 id="cinna-central-informative-nodes-in-network-analysis">CINNA-Central Informative Nodes in Network Analysis</h3>
 
 <p>^520709</p>
 
-<p>Bu konuda şurayı buldum: https://www.datacamp.com/community/tutorials/centrality-network-analysis-R<br />
-    - Adım adım anlatıyor, ama sanki tam çalışmıyor adımlar. Referanslar:<br />
-    - <code>\cite{ashtiani2018systematic,ashtiani2019cinna}</code><br />
-    - https://cran.r-project.org/web/packages/CINNA/vignettes/CINNA.html<br />
-    - https://cran.r-project.org/web/packages/CINNA/CINNA.pdf<br />
-<a href="cinna-sonuçları.html">CINNA sonuçları</a></p>
+<ul>
+<li>Bu konuda şurayı buldum: https://www.datacamp.com/community/tutorials/centrality-network-analysis-R</li>
+<li>Adım adım anlatıyor, ama sanki tam çalışmıyor adımlar. Referanslar:</li>
+<li><code>\cite{ashtiani2018systematic,ashtiani2019cinna}</code></li>
+<li>https://cran.r-project.org/web/packages/CINNA/vignettes/CINNA.html</li>
+<li>https://cran.r-project.org/web/packages/CINNA/CINNA.pdf<br />
+<a href="cinna-sonuçları.html">CINNA sonuçları</a></li>
+</ul>
 </div></div>
 		<hr>
 		Bundan bahsedenler:
