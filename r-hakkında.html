@@ -21,7 +21,8 @@
         <div id="content"><div id="content"><ul>
 <li>"Alt - " doğrudan &lt;- yapıyor.</li>
 <li>Bir komutu scriptten vermek istiyorsan, print komutunun içinde vermek işe yarıyor.</li>
-<li>Şu kütüphaneleri öğrenmek işime yararmış:<br />
+<li>Şu kütüphaneleri öğrenmek işime yararmış:</li>
+<li>print yazmaya gerek olmadan sadece yazdıracağın şeyi paranteze alarak da aynı şeyi yapabiliyormuşsun.<br />
 <ol><br />
 <li>dplyr - see the <a href="https://cran.r-project.org/web/packages/dplyr/vignettes/dplyr.html">dplyr vignette</a><br /><br />
 <ul><br /><br />
@@ -33,25 +34,6 @@
 <li>Purrr - <a href="https://data.library.virginia.edu/getting-started-with-the-purrr-package-in-r/">https://data.library.virginia.edu/getting-started-with-the-purrr-package-in-r/</a></li><br />
 <li>data.table: https://atrebas.github.io/post/2020-06-17-datatable-introduction/</li><br />
 </ol></li>
-<li>print yazmaya gerek olmadan sadece yazdıracağın şeyi paranteze alarak da aynı şeyi yapabiliyormuşsun.</li>
-</ul>
-
-<h3 id="zaman-serisi-analizi">Zaman Serisi Analizi</h3>
-
-<ul>
-<li><strong>read.table</strong> reads data into a data frame</li>
-<li><strong>attach</strong> makes names of column variables available</li>
-<li><strong>ts</strong> produces a time series object</li>
-<li><strong>aggregate</strong> creates an aggregated series</li>
-<li><strong>ts.plot</strong> produces a time plot for one or more series</li>
-<li><strong>window</strong> extracts a subset of a time series</li>
-<li><strong>time</strong> extracts the time from a time series object</li>
-<li><strong>ts.intersect</strong> creates the intersection of one or more time series</li>
-<li><strong>cycle</strong> returns the season for each value in a series</li>
-<li><strong>decompose</strong> decomposes a series into the components</li>
-<li><strong>trend</strong>, seasonal effect, and residual</li>
-<li><strong>stl</strong> decomposes a series using loess smoothing</li>
-<li><strong>summary</strong> summarises an R object</li>
 </ul>
 
 <h3 id="r-ogrenme-linkleri">R Öğrenme Linkleri</h3>
@@ -66,6 +48,7 @@
 <ul><br />
 <li><a href="https://jrnold.github.io/r4ds-exercise-solutions/">R4DS Exercise solutions</a></li><br />
 </ul></li>
+<li>https://stats.idre.ucla.edu/r/</li>
 <li>https://www.econometrics-with-r.org/</li>
 <li>https://learningstatisticswithr.com/</li>
 <li>https://rpubs.com/christine_murray/r-for-economics</li>
@@ -77,6 +60,7 @@
 <li>https://www.learnr4free.com/tr/index.html</li><br />
 <li>https://www.youtube.com/channel/UCX6SHiuarMFY87LhR6MoUyw</li><br />
 <li>https://rpydaneogrendim.github.io/rEkonometri/</li><br />
+<li>https://bookdown.org/content/2096/</li><br />
 </ul></li>
 <li>İleri Düzey: https://adv-r.hadley.nz/<br />
 <ul><br />
@@ -87,6 +71,7 @@
 <ul><br />
 <li>https://www.tidytextmining.com/</li><br />
 <li>https://tutorials.quanteda.io/</li><br />
+<li>tidytext: https://juliasilge.com/blog/learn-tidytext-learnr/</li><br />
 </ul></li>
 <li>https://gexijin.github.io/learnR/index.html</li>
 <li>https://htmlpreview.github.io/?https://github.com/tifa365/pandas-puzzles-solved-in-R-tidyverse/blob/main/30-pandas-puzzles-solved-in-R-tidyverse.html</li>
@@ -105,12 +90,9 @@
 </ul></li><br />
 </ul></li>
 <li>Stanford Üniversitesinden istatistik dersi: http://statweb.stanford.edu/~susan/courses/stats305c</li>
-<li>https://www.bigbookofr.com/</li>
-<li>Metin Analizi:<br />
-<ul><br />
-<li>https://www.tidytextmining.com/</li><br />
-<li>tidytext: https://juliasilge.com/blog/learn-tidytext-learnr/</li><br />
-</ul></li>
+<li>Makine Öğrenmesi: https://bradleyboehmke.github.io/HOML/</li>
+<li>Bir Sürü Kitap: https://www.bigbookofr.com/</li>
+<li>Simülasyon: https://grantmcdermott.com/efficient-simulations-in-r/</li>
 <li><a href="https://www.rstudio.com/resources/cheatsheets/">The R Studio Cheat Sheets</a></li>
 <li><a href="https://www.datacamp.com/courses/introduction-to-the-tidyverse">Tidyverse'e giriş</a></li>
 <li><a href="https://r-bootcamp.netlify.app/">R Bootcamp</a></li>
@@ -128,7 +110,26 @@
 </ul></li>
 <li>Princeton'dan ders: https://github.com/paulgp/applied-methods-phd</li>
 <li>https://cran.r-project.org/doc/manuals/r-release/R-intro.pdf</li>
+<li>https://users.metu.edu.tr/ozancan/notes.html</li>
 <li>https://www.youtube.com/watch?v=_V8eKsto3Ug</li>
+</ul>
+
+<h3 id="zaman-serisi-analizi">Zaman Serisi Analizi</h3>
+
+<ul>
+<li><strong>read.table</strong> reads data into a data frame</li>
+<li><strong>attach</strong> makes names of column variables available</li>
+<li><strong>ts</strong> produces a time series object</li>
+<li><strong>aggregate</strong> creates an aggregated series</li>
+<li><strong>ts.plot</strong> produces a time plot for one or more series</li>
+<li><strong>window</strong> extracts a subset of a time series</li>
+<li><strong>time</strong> extracts the time from a time series object</li>
+<li><strong>ts.intersect</strong> creates the intersection of one or more time series</li>
+<li><strong>cycle</strong> returns the season for each value in a series</li>
+<li><strong>decompose</strong> decomposes a series into the components</li>
+<li><strong>trend</strong>, seasonal effect, and residual</li>
+<li><strong>stl</strong> decomposes a series using loess smoothing</li>
+<li><strong>summary</strong> summarises an R object</li>
 </ul>
 </div></div>
 		<hr>
